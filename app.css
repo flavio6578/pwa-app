@@ -369,3 +369,9 @@ header {
         height: 6px;
     }
 }
+.no-results {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    font-style: italic;
+}
