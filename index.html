@@ -1,11 +1,12 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiros Socorros Natural</title>
-    <link rel="stylesheet" href="app.css">
+    <title>Primeiros Socorros - Métodos Normais e Naturais</title>
+    <link rel="stylesheet" href="estilo.css">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#2E7D32">
+    <meta name="theme-color" content="#c62828">
 </head>
 <body>
     <div class="container">
@@ -15,9 +16,35 @@
         </div>
 
         <header>
-            <h1>🚑 Primeiros Socorros Natural</h1>
+            <!-- Botão PWA 3D (aparece apenas para instalação) -->
+            <div class="pwa-button" id="pwaInstallButton" style="display: none;">
+                <div class="pwa-button-content">
+                    <div class="cruz-3d">
+                        <div class="cruz-vertical"></div>
+                        <div class="cruz-horizontal"></div>
+                    </div>
+                    <span>Instalar App</span>
+                </div>
+            </div>
+
+            <h1 class="main-title">PRIMEIROS SOCORROS</h1>
+            <h2 class="sub-title">Métodos Normais e Naturais</h2>
+            
+            <!-- Menu de 3 linhas -->
+            <div class="menu-principal">
+                <div class="menu-item" onclick="mostrarIntroducao()">
+                    <span class="menu-letra">a.</span> Introdução
+                </div>
+                <div class="menu-item" onclick="mostrarImportante()">
+                    <span class="menu-letra">b.</span> Importante saber - leia
+                </div>
+                <div class="menu-item" onclick="mostrarIndice()">
+                    <span class="menu-letra">c.</span> Índice
+                </div>
+            </div>
+
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="🔍 Buscar tratamento...">
+                <input type="text" id="searchInput" placeholder="🔍 Buscar tratamento ou palavra...">
             </div>
         </header>
 
@@ -34,6 +61,6 @@
             [ESPAÇO PROPAGANDA]
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="aplicativo.js"></script>
 </body>
 </html>
