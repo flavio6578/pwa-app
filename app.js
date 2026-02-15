@@ -168,4 +168,30 @@ function voltarParaLista() {
 }
 
 // Inicializar app quando a página carregar
-document.addEventListener('DOMContentLoaded', initApp);
+document.addEventListener('DOMContentLoaded', initApp);// Função para filtrar por letra (já deve existir, vamos atualizar)
+function filtrarPorLetra(letra) {
+    const topicosFiltrados = topicos.filter(topico => 
+        topico.titulo.toUpperCase().startsWith(letra)
+    );
+    
+    const topicsList = document.getElementById('topicsList');
+    topicsList.innerHTML = '';
+
+    if (topicosFiltrados.length === 0) {
+        topicsList.innerHTML = '<div class="no-results">Nenhum tópico encontrado com a letra ' + letra + '</div>';
+        return;
+    }
+
+    topicosFiltrados.forEach(topico => {
+        const div = document.createElement('div');
+        div.className = 'topic-item';
+        div.innerHTML = `<h3>${topico.titulo}</h3>`;
+        div.onclick = () => mostrarProtocolo(topico.id);
+        topicsList.appendChild(div);
+    });
+
+    // Rolar suavemente para a lista
+    topicsList.scrollIntoView({ behavior: 'smooth' });
+}
+
+
