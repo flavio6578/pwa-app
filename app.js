@@ -120,22 +120,10 @@ function carregarListaTopicos(filtro = '') {
         )
     );
 
-    topicosFiltrados.forEach(topico => {
-        const div = document.createElement('div');
-        div.className = 'topic-item';
-        div.innerHTML = `<h3>${topico.titulo}</h3>`;
-        div.onclick = () => mostrarProtocolo(topico.id);
-        topicsList.appendChild(div);
-    });
-}
-
-function filtrarPorLetra(letra) {
-    const topicosFiltrados = topicos.filter(topico => 
-        topico.titulo.toUpperCase().startsWith(letra)
-    );
-    
-    const topicsList = document.getElementById('topicsList');
-    topicsList.innerHTML = '';
+    if (topicosFiltrados.length === 0) {
+        topicsList.innerHTML = '<div class="no-results">Nenhum tópico encontrado</div>';
+        return;
+    }
 
     topicosFiltrados.forEach(topico => {
         const div = document.createElement('div');
@@ -146,29 +134,6 @@ function filtrarPorLetra(letra) {
     });
 }
 
-function configurarBusca() {
-    const searchInput = document.getElementById('searchInput');
-    searchInput.addEventListener('input', (e) => {
-        carregarListaTopicos(e.target.value);
-    });
-}
-
-function mostrarProtocolo(id) {
-    const topico = topicos.find(t => t.id === id);
-    if (!topico) return;
-
-    document.getElementById('topicsContainer').style.display = 'none';
-    document.getElementById('protocolContent').style.display = 'block';
-    document.getElementById('protocolContent').innerHTML = topico.conteudo;
-}
-
-function voltarParaLista() {
-    document.getElementById('topicsContainer').style.display = 'block';
-    document.getElementById('protocolContent').style.display = 'none';
-}
-
-// Inicializar app quando a página carregar
-document.addEventListener('DOMContentLoaded', initApp);// Função para filtrar por letra (já deve existir, vamos atualizar)
 function filtrarPorLetra(letra) {
     const topicosFiltrados = topicos.filter(topico => 
         topico.titulo.toUpperCase().startsWith(letra)
@@ -194,4 +159,26 @@ function filtrarPorLetra(letra) {
     topicsList.scrollIntoView({ behavior: 'smooth' });
 }
 
+function configurarBusca() {
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', (e) => {
+        carregarListaTopicos(e.target.value);
+    });
+}
 
+function mostrarProtocolo(id) {
+    const topico = topicos.find(t => t.id === id);
+    if (!topico) return;
+
+    document.getElementById('topicsContainer').style.display = 'none';
+    document.getElementById('protocolContent').style.display = 'block';
+    document.getElementById('protocolContent').innerHTML = topico.conteudo;
+}
+
+function voltarParaLista() {
+    document.getElementById('topicsContainer').style.display = 'block';
+    document.getElementById('protocolContent').style.display = 'none';
+}
+
+// Inicializar app quando a página carregar
+document.addEventListener('DOMContentLoaded', initApp);
