@@ -1190,3 +1190,803 @@ const topicos = [
         palavrasChave: ["dor muscular", "torcicolo", "músculo", "dor", "repolho", "gengibre", "imobilizar"]
     }
 ];
+    // PROTOCOLO 21 - Dor de Ouvido
+    {
+        id: 21,
+        titulo: "Dor de Ouvido",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Dor de Ouvido</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamentos Naturais:</h3>
+                
+                <h4>1. Cataplasma de cebola cozida:</h4>
+                <ul>
+                    <li>Cozinhar uma cebola inteira no vapor (não na água).</li>
+                    <li>Cortar ao meio e extrair o suco quente (testar a temperatura).</li>
+                    <li>Colocar algumas gotas do suco no ouvido afetado.</li>
+                    <li>Envolver a cebola em um pano e aplicar sobre o ouvido.</li>
+                </ul>
+                
+                <h4>2. Chá da casca da laranja ou limão:</h4>
+                <ul>
+                    <li>Usar 1 laranja ou 1 limão inteiro ou apenas a casca.</li>
+                    <li>Ferver em meio litro de água.</li>
+                    <li>Beber morno ou frio durante o dia.</li>
+                    <li>Pode acrescentar mel e própolis.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["dor de ouvido", "ouvido", "cebola", "laranja", "limão", "chá"]
+    },
+    
+    // PROTOCOLO 22 - Embriaguez / Alcoolismo
+    {
+        id: 22,
+        titulo: "Embriaguez / Alcoolismo",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Embriaguez / Alcoolismo</h2>
+            
+            <div class="protocol-section">
+                <h3>Embriaguez (Bebedeira)</h3>
+                <ul>
+                    <li>Tomar 4 a 5 comprimidos de carvão ativado.</li>
+                    <li>Reduz efeitos do álcool em 10 a 20 minutos.</li>
+                </ul>
+                
+                <h3>Alcoolismo</h3>
+                <ul>
+                    <li>Usar extrato de alho em álcool (25 gotas em meia xícara de água, 3 vezes ao dia).</li>
+                    <li>Preparo: uma cabeça de alho roxo em 100ml de álcool de cereais.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["embriaguez", "bebedeira", "álcool", "alcoolismo", "carvão ativado", "alho"]
+    },
+    
+    // PROTOCOLO 23 - Engasgo em Adultos
+    {
+        id: 23,
+        titulo: "Engasgo em Adultos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Engasgo em Adultos</h2>
+            
+            <div class="protocol-section">
+                <h3>O que fazer em ADULTOS</h3>
+                
+                <h4>1. Engasgo parcial:</h4>
+                <ul>
+                    <li>Incentive a tossir com força.</li>
+                </ul>
+                
+                <h4>2. Engasgo total - Manobra de Heimlich:</h4>
+                <ul>
+                    <li>Fique atrás da vítima.</li>
+                    <li>Abrace-a pela cintura.</li>
+                    <li>Feche uma mão em punho e coloque acima do umbigo.</li>
+                    <li>Segure o punho com a outra mão e faça compressões rápidas e fortes para dentro e para cima.</li>
+                    <li>Repita até o objeto sair ou a vítima perder a consciência.</li>
+                </ul>
+                
+                <h4>Se perder a consciência:</h4>
+                <ul>
+                    <li>Deite a vítima no chão.</li>
+                    <li>Inicie RCP, observando se o objeto é expelido.</li>
+                </ul>
+                
+                <!-- IMAGEM FIGURA 15 -->
+                <div style="margin:20px 0; text-align:center;">
+                    <img src="/imagens/protocolo23-imagem15.jpg" alt="Figura 15" style="max-width:100%; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+                    <p><strong>Figura 15</strong> - Manobra de Heimlich em adultos</p>
+                </div>
+            </div>
+        `,
+        palavrasChave: ["engasgo", "heimlich", "adulto", "obstrução", "respiração", "manobra"]
+    },
+    
+    // PROTOCOLO 24 - Engasgo em Crianças
+    {
+        id: 24,
+        titulo: "Engasgo em Crianças",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Engasgo em Crianças</h2>
+            
+            <div class="protocol-section">
+                <h3>O que fazer em CRIANÇAS (maiores de 1 ano)</h3>
+                <ul>
+                    <li>Procedimento igual ao do adulto, mas com menos força nas compressões.</li>
+                    <li>Sempre procure ajuda médica após o episódio.</li>
+                </ul>
+                
+                <h3>O que fazer em BEBÊS (menores de 1 ano)</h3>
+                <ul>
+                    <li>Segure o bebê de barriga para baixo, apoiado no seu braço, com a cabeça mais baixa que o tronco.</li>
+                    <li>Dê 5 tapas firmes nas costas, entre as escápulas.</li>
+                    <li>Se não resolver, vire o bebê de barriga para cima e faça 5 compressões torácicas com dois dedos no centro do peito.</li>
+                    <li>Alterne entre 5 tapas nas costas e 5 compressões no peito até o objeto sair ou a ajuda chegar.</li>
+                </ul>
+                
+                <h3>O que NÃO fazer:</h3>
+                <ul>
+                    <li>Não oferecer água ou alimentos para "empurrar".</li>
+                    <li>Não colocar os dedos na garganta sem ver o objeto.</li>
+                    <li>Não sacudir o bebê.</li>
+                </ul>
+                
+                <!-- IMAGEM FIGURA 16 -->
+                <div style="margin:20px 0; text-align:center;">
+                    <img src="/imagens/protocolo24-imagem16.jpg" alt="Figura 16" style="max-width:100%; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+                    <p><strong>Figura 16</strong> - Manobra em bebês engasgados</p>
+                </div>
+            </div>
+        `,
+        palavrasChave: ["engasgo", "criança", "bebê", "heimlich", "tapas nas costas", "obstrução"]
+    },
+    
+    // PROTOCOLO 25 - Entorse / Luxações
+    {
+        id: 25,
+        titulo: "Entorse / Luxações",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Entorse / Luxações</h2>
+            
+            <div class="protocol-section">
+                <h3>Entorse</h3>
+                <p>Lesão traumática de uma articulação, causada pelo estiramento, torção ou ruptura de ligamentos.</p>
+                
+                <h4>Protocolo GECA (primeiras 48-72 horas):</h4>
+                <ul>
+                    <li><strong>G</strong> – Guardar: Não force o membro afetado.</li>
+                    <li><strong>E</strong> – Gelar: Aplique gelo envolto em pano por 15-20 minutos a cada 2-3 horas.</li>
+                    <li><strong>C</strong> – Comprimir: Use atadura para compressão leve.</li>
+                    <li><strong>A</strong> – Elevar: Mantenha o membro elevado.</li>
+                </ul>
+                
+                <h4>Tratamento Natural:</h4>
+                <ul>
+                    <li>Folhas de repolho amassadas com mel.</li>
+                    <li>Cataplasma de gengibre ralado.</li>
+                </ul>
+            </div>
+            
+            <div class="protocol-section">
+                <h3>Luxação</h3>
+                <p>Deslocamento completo de uma articulação.</p>
+                
+                <h4>Procedimentos Imediatos:</h4>
+                <ul>
+                    <li>Não tente recolocar a articulação no lugar.</li>
+                    <li>Imobilize na posição em que está.</li>
+                    <li>Aplique compressa fria.</li>
+                    <li>Eleve o membro afetado.</li>
+                </ul>
+                
+                <h4>O que NÃO fazer:</h4>
+                <ul>
+                    <li>Não tente recolocar a articulação.</li>
+                    <li>Não massageie a área.</li>
+                    <li>Não aplique calor.</li>
+                </ul>
+                
+                <h4>Quando buscar URGENTE:</h4>
+                <ul>
+                    <li>Articulação claramente fora do lugar.</li>
+                    <li>Dor insuportável.</li>
+                    <li>Formigamento ou dormência.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["entorse", "luxação", "torção", "articulação", "imobilizar", "gelo", "repolho", "gengibre"]
+    },
+    
+    // PROTOCOLO 26 - Farpas / Corpos estranhos na pele
+    {
+        id: 26,
+        titulo: "Farpas ou corpos estranhos na pele",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Farpas ou corpos estranhos na pele</h2>
+            
+            <div class="protocol-section">
+                <h3>PROTOCOLO GERAL DE REMOÇÃO</h3>
+                
+                <h4>Preparação Inicial:</h4>
+                <ul>
+                    <li>Lave bem as mãos com água e sabão.</li>
+                    <li>Limpe a área ao redor com água limpa e sabão neutro.</li>
+                    <li>Esterilize o instrumento (pinça ou agulha) no fogo ou álcool.</li>
+                </ul>
+                
+                <h4>Remoção para objetos visíveis:</h4>
+                <ul>
+                    <li>Use pinça esterilizada para segurar firmemente o objeto.</li>
+                    <li>Puxe na mesma direção em que o objeto entrou.</li>
+                    <li>Após remoção, esprema suavemente para sangrar um pouco e limpar.</li>
+                </ul>
+                
+                <h4>Para espinhos e farpas profundas:</h4>
+                <ul>
+                    <li>Cataplasma de batata ralada ou pasta de inhame e gengibre.</li>
+                    <li>Compressa de contraste (água quente/fria).</li>
+                </ul>
+            </div>
+            
+            <div class="protocol-section">
+                <h3>O QUE NÃO FAZER</h3>
+                <ul>
+                    <li>Não use agulhas não esterilizadas.</li>
+                    <li>Não force a remoção se o objeto estiver muito profundo.</li>
+                    <li>Não ignore sinais de infecção.</li>
+                </ul>
+                
+                <h3>Sinais de alerta para infecção:</h3>
+                <ul>
+                    <li>Vermelhidão ao redor da ferida.</li>
+                    <li>Inchaço crescente.</li>
+                    <li>Presença de pus.</li>
+                    <li>Febre ou mal-estar.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["farpa", "espinho", "corpo estranho", "pele", "remoção", "pinça", "infecção", "batata"]
+    },
+    
+    // PROTOCOLO 27 - Febre alta
+    {
+        id: 27,
+        titulo: "Febre alta",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Febre alta</h2>
+            
+            <div class="protocol-section">
+                <h3>IDENTIFICAÇÃO</h3>
+                <ul>
+                    <li>Temperatura acima de 38,5°C</li>
+                    <li>Calafrios e suores</li>
+                    <li>Pele quente e avermelhada</li>
+                    <li>Dor no corpo e mal-estar</li>
+                </ul>
+                
+                <h3>PROCEDIMENTOS NATURAIS IMEDIATOS</h3>
+                
+                <h4>1. Hidratação Intensiva:</h4>
+                <ul>
+                    <li>Água em pequenos goles a cada 15 minutos</li>
+                    <li>Água de coco natural</li>
+                    <li>Soro caseiro: 1 litro de água + 1 colher de sopa de açúcar + 1 colher de chá de sal</li>
+                </ul>
+                
+                <h4>2. Banho Morno:</h4>
+                <ul>
+                    <li>Água morna (nunca fria) por 15-20 minutos</li>
+                    <li>Adicione 2 colheres de vinagre de maçã à água</li>
+                </ul>
+                
+                <h4>3. Compressas de Água Fria:</h4>
+                <ul>
+                    <li>Pulsos, testa, nuca e tornozelos</li>
+                    <li>Troque a cada 10 minutos</li>
+                </ul>
+            </div>
+            
+            <div class="protocol-section">
+                <h3>CHÁS MEDICINAIS</h3>
+                <ul>
+                    <li><strong>Chá de Sabugueiro:</strong> 2 colheres de flores secas por xícara, 3x ao dia</li>
+                    <li><strong>Chá de Gengibre:</strong> 2 rodelas com suco de limão</li>
+                    <li><strong>Chá de Camomila com Hortelã:</strong> Acalma e reduz a temperatura</li>
+                </ul>
+                
+                <h3>SINAIS DE ALERTA - BUSQUE AJUDA MÉDICA</h3>
+                <ul>
+                    <li>Febre acima de 40°C</li>
+                    <li>Convulsões febris</li>
+                    <li>Manchas vermelhas na pele</li>
+                    <li>Rigidez na nuca</li>
+                    <li>Febre por mais de 3 dias</li>
+                </ul>
+                
+                <p><em>A febre é um mecanismo de defesa do corpo – o objetivo é aliviar o desconforto, não necessariamente eliminar completamente a febre!</em></p>
+            </div>
+        `,
+        palavrasChave: ["febre", "alta", "temperatura", "calafrios", "hidratação", "chá", "sabugueiro", "gengibre"]
+    },
+    
+    // PROTOCOLO 28 - Feridas
+    {
+        id: 28,
+        titulo: "Feridas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Feridas</h2>
+            
+            <div class="protocol-section">
+                <h3>FERIDAS CRÔNICAS</h3>
+                
+                <h4>Tratamento Natural:</h4>
+                <ul>
+                    <li>Usar a "Pomada de açafrão, camomila e mel" (ver na seção Farmácia Natural).</li>
+                    <li>Preencher a ferida profundamente com a pomada e cobrir com gaze.</li>
+                    <li>Aplicar 2 vezes ao dia (manhã e tarde).</li>
+                    <li>À noite usar carvão em pó para evitar pus.</li>
+                </ul>
+                
+                <p>Para saber mais, procure a sessão: Cortes / Sangramento / Hemorragias</p>
+            </div>
+        `,
+        palavrasChave: ["ferida", "corte", "cicatrização", "pomada", "açafrão", "camomila", "mel", "carvão"]
+    },
+    
+    // PROTOCOLO 29 - Ferimento com prego enferrujado
+    {
+        id: 29,
+        titulo: "Ferimento com prego enferrujado",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Ferimento com prego enferrujado</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                
+                <h4>1. Cataplasma de batata ralada:</h4>
+                <ul>
+                    <li>Aplicar sobre a área afetada para reduzir inchaço e drenar pus.</li>
+                    <li>Fazer compressa de contraste (água quente 3 min + água fria 30 seg, repetir 3 vezes).</li>
+                </ul>
+                
+                <h4>2. Pasta de inhame e gengibre</h4>
+                <p>(Ver na Seção "Farmácia Natural")</p>
+                
+                <h4>3. Tomar a "Penicilina Russa"</h4>
+                <p>(Ver na Seção "Farmácia Natural")</p>
+                
+                <p>Para saber mais, procure a sessão: Cortes / Sangramento / Hemorragias</p>
+            </div>
+        `,
+        palavrasChave: ["prego", "enferrujado", "ferimento", "tétano", "batata", "inhame", "penicilina russa"]
+    },
+    
+    // PROTOCOLO 30 - Fraturas
+    {
+        id: 30,
+        titulo: "Fraturas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Fraturas</h2>
+            
+            <div class="protocol-section">
+                <h3>IDENTIFICAÇÃO RÁPIDA</h3>
+                <ul>
+                    <li>Dor intensa que piora com movimento</li>
+                    <li>Inchaço e hematoma rápido</li>
+                    <li>Deformidade visível</li>
+                    <li>Incapacidade de usar o membro</li>
+                </ul>
+                
+                <h3>PROTOCOLO DE IMOBILIZAÇÃO</h3>
+                
+                <h4>1. Controle Inicial:</h4>
+                <ul>
+                    <li>Não tente alinhar o osso.</li>
+                    <li>Corte a roupa se necessário para expor a área.</li>
+                    <li>Remova anéis, pulseiras e relógios (antes de inchar).</li>
+                </ul>
+                
+                <h4>2. Talas Improvisadas:</h4>
+                <ul>
+                    <li>Jornais/revistas enrolados</li>
+                    <li>Galhos retos (use dois de cada lado)</li>
+                    <li>Papelão dobrado (molhe para moldar)</li>
+                    <li>Para fixação: gravatas, cintos, tiras de pano</li>
+                </ul>
+                
+                <h4>3. Fratura de Braço/Antebraço:</h4>
+                <ul>
+                    <li>Dobrar o cotovelo a 90 graus</li>
+                    <li>Tipoia com camiseta ou pano triangular</li>
+                    <li>Prender ao corpo com tiras</li>
+                </ul>
+                
+                <h4>4. Fratura de Perna:</h4>
+                <ul>
+                    <li>Imobilizar a perna inteira</li>
+                    <li>Amarrar as pernas juntas (a sã serve de tala)</li>
+                    <li>Usar galhos longos dos pés à virilha</li>
+                </ul>
+                
+                <!-- IMAGENS FIGURA 17 E 18 -->
+                <div style="margin:20px 0; text-align:center;">
+                    <img src="/imagens/protocolo30-imagem17.jpg" alt="Figura 17" style="max-width:100%; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+                    <p><strong>Figura 17</strong> - Imobilização de fratura no braço</p>
+                </div>
+                
+                <div style="margin:20px 0; text-align:center;">
+                    <img src="/imagens/protocolo30-imagem18.jpg" alt="Figura 18" style="max-width:100%; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+                    <p><strong>Figura 18</strong> - Tala improvisada para perna</p>
+                </div>
+                
+                <h3>O QUE NUNCA FAZER</h3>
+                <ul>
+                    <li>Tentar "endireitar" o osso</li>
+                    <li>Aplicar calor na fratura</li>
+                    <li>Dar bebidas alcoólicas para a dor</li>
+                    <li>Apertar demais as talas</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["fratura", "osso quebrado", "imobilizar", "tala", "improvisar", "galho", "papelão"]
+    },
+    
+    // PROTOCOLO 31 - Furúnculos
+    {
+        id: 31,
+        titulo: "Furúnculos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Furúnculos</h2>
+            
+            <div class="protocol-section">
+                <h3>TRATAMENTOS NATURAIS</h3>
+                
+                <h4>1. Cataplasma de cebola cozida:</h4>
+                <ul>
+                    <li>Aplicar metade de uma cebola cozida diretamente sobre o furúnculo.</li>
+                    <li>Manter por várias horas.</li>
+                    <li>Ajuda a drenar o pus e acelera a cicatrização.</li>
+                </ul>
+                
+                <h4>2. Cataplasma de Repolho:</h4>
+                <ul>
+                    <li>Amassar uma folha de repolho com uma colher.</li>
+                    <li>Aplicar gotas de limão sobre a folha.</li>
+                    <li>Colocar sobre o furúnculo e amarrar um pano por cima.</li>
+                    <li>Deixar várias horas.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["furúnculo", "pus", "infecção", "cebola", "repolho", "limão"]
+    },
+    
+    // PROTOCOLO 32 - Hemorróidas
+    {
+        id: 32,
+        titulo: "Hemorróidas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Hemorróidas</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural:</h3>
+                
+                <h4>Via oral:</h4>
+                <ul>
+                    <li>Tomar 1 colher de chá da pomada (açafrão, camomila e mel) 3 a 5 vezes ao dia.</li>
+                </ul>
+                
+                <h4>Uso tópico:</h4>
+                <ul>
+                    <li>Adicionar pimenta malagueta triturada (sem sementes) à pomada de Açafrão.</li>
+                    <li>Aplicar topicamente nas hemorroidas 3 vezes ao dia.</li>
+                    <li>Melhora em 3 dias (casos agudos) ou 20 dias (casos crônicos).</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["hemorróida", "hemorroida", "pomada", "açafrão", "pimenta", "malagueta"]
+    },
+    
+    // PROTOCOLO 33 - Hipotermia
+    {
+        id: 33,
+        titulo: "Hipotermia",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Hipotermia</h2>
+            
+            <div class="protocol-section">
+                <h3>IDENTIFICAÇÃO DA HIPOTERMIA</h3>
+                
+                <h4>Sinais Leves a Moderados:</h4>
+                <ul>
+                    <li>Calafrios intensos e incontroláveis</li>
+                    <li>Pele pálida e fria ao toque</li>
+                    <li>Fala arrastada ou confusa</li>
+                    <li>Movimentos descoordenados</li>
+                </ul>
+                
+                <h4>Sinais Graves:</h4>
+                <ul>
+                    <li>Ausência de calafrios (sinal perigoso)</li>
+                    <li>Perda de consciência ou sonolência extrema</li>
+                    <li>Respiração muito lenta e superficial</li>
+                    <li>Pulso fraco e lento</li>
+                </ul>
+            </div>
+            
+            <div class="protocol-section">
+                <h3>TRATAMENTO DE EMERGÊNCIA</h3>
+                
+                <h4>Primeiras Medidas:</h4>
+                <ul>
+                    <li>Remova a pessoa do ambiente frio.</li>
+                    <li>Retire roupas molhadas.</li>
+                    <li>Isole do chão frio (cobertores, colchonete).</li>
+                </ul>
+                
+                <h4>Aquecimento Progressivo:</h4>
+                <ul>
+                    <li>Aqueça primeiro tórax, pescoço, axilas e virilha.</li>
+                    <li>Use compressas mornas (não quentes).</li>
+                    <li>Use contato corporal (pele com pele, cobertores).</li>
+                    <li>Ofereça líquidos quentes (apenas se consciente).</li>
+                </ul>
+                
+                <h4>O QUE NÃO FAZER:</h4>
+                <ul>
+                    <li>Não aqueça braços e pernas primeiro.</li>
+                    <li>Não use fonte de calor direto (fogueira, bolsas quentes).</li>
+                    <li>Não dê massagem vigorosa.</li>
+                    <li>Não permita bebidas alcoólicas.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["hipotermia", "frio", "calafrio", "aquecer", "temperatura", "reaquecimento"]
+    },
+    
+    // PROTOCOLO 34 - Intoxicação Alimentar / Química / Medicamentos
+    {
+        id: 34,
+        titulo: "Intoxicação Alimentar / Química / Medicamentos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Intoxicação Alimentar / Química / Medicamentos</h2>
+            
+            <div class="protocol-section">
+                <h3>Princípios Gerais:</h3>
+                <ul>
+                    <li>Mantenha a calma.</li>
+                    <li>Afaste a vítima da fonte intoxicante.</li>
+                    <li>Identifique o agente causador (o que foi ingerido, quantidade, quando).</li>
+                    <li>NÃO provoque vômito a menos que instruído por profissional.</li>
+                </ul>
+                
+                <h3>A) Intoxicação Alimentar:</h3>
+                <ul>
+                    <li>Hidratação: soro caseiro, água de coco.</li>
+                    <li>Dieta leve.</li>
+                    <li>Repouso.</li>
+                    <li>Buscar ajuda se vômitos/diarreia incontroláveis, febre alta, desidratação.</li>
+                </ul>
+                
+                <h3>B) Intoxicação por Produtos Químicos:</h3>
+                <ul>
+                    <li>Inalação: leve para local arejado.</li>
+                    <li>Contato pele/olhos: lave com água corrente por 15-20 minutos.</li>
+                    <li>Ingestão: NÃO provoque vômito.</li>
+                </ul>
+                
+                <h3>TRATAMENTO NATURAL DE EMERGÊNCIA:</h3>
+                <ul>
+                    <li>Tomar 3 a 4 comprimidos de carvão ativado de uma vez.</li>
+                    <li>Repetir 3 vezes no mesmo dia (intervalo de 3 horas).</li>
+                    <li>Neutraliza infecção intestinal, náuseas, vômitos, dores e febre.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["intoxicação", "envenenamento", "alimento estragado", "químico", "medicamento", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 35 - Mordida de cachorro ou gato
+    {
+        id: 35,
+        titulo: "Mordida de cachorro ou gato",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Mordida de cachorro ou gato</h2>
+            
+            <div class="protocol-section">
+                <h3>PRIMEIROS SOCORROS IMEDIATOS</h3>
+                
+                <h4>1. Controle do Sangramento:</h4>
+                <ul>
+                    <li>Aplique pressão direta com pano limpo.</li>
+                    <li>Eleve o membro afetado.</li>
+                </ul>
+                
+                <h4>2. Limpeza Minuciosa:</h4>
+                <ul>
+                    <li>Lave abundantemente com água e sabão por 15 minutos.</li>
+                    <li>Remova toda sujeira e saliva do animal.</li>
+                </ul>
+                
+                <h4>3. Aplicação de Carvão Ativado:</h4>
+                <ul>
+                    <li>Faça pasta com carvão ativado e água.</li>
+                    <li>Aplique sobre a ferida e cubra com gaze.</li>
+                    <li>Troque a cada 4-6 horas nas primeiras 24 horas.</li>
+                </ul>
+                
+                <h4>4. Administração Oral de Carvão:</h4>
+                <ul>
+                    <li>Ingira 1 colher de sopa de carvão diluído em água.</li>
+                    <li>Repita a cada 6 horas por 24-48 horas.</li>
+                </ul>
+                
+                <h3>RESUMO DO TRATAMENTO NATURAL:</h3>
+                <ul>
+                    <li>Se jorrar muito sangue, jogue pimenta caiena sobre a ferida.</li>
+                    <li>Aplique carvão vegetal ou folha de repolho com limão.</li>
+                    <li>Tomar 5 comprimidos de carvão ativado.</li>
+                    <li>Continuar carvão de 6 em 6 horas.</li>
+                    <li>Tomar "Penicilina Russa" como preventivo.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["mordida", "cachorro", "gato", "animal", "raiva", "carvão ativado", "pimenta caiena"]
+    },
+    
+    // PROTOCOLO 36 - Náuseas ou enjoo
+    {
+        id: 36,
+        titulo: "Náuseas ou enjoo",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Náuseas ou enjoo</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural:</h3>
+                
+                <h4>1. Chá de gengibre:</h4>
+                <ul>
+                    <li>Ralar gengibre fresco e adicionar água fervente.</li>
+                    <li>Deixar em infusão por 10 minutos.</li>
+                    <li>Beber aos goles para aliviar náuseas (incluindo enjoo de viagem).</li>
+                </ul>
+                
+                <h4>2. Suco de limão com água morna</h4>
+            </div>
+        `,
+        palavrasChave: ["náusea", "enjoo", "vômito", "gengibre", "limão", "viagem"]
+    },
+    
+    // PROTOCOLO 37 - Parada Cardíaca
+    {
+        id: 37,
+        titulo: "Parada Cardíaca (Coração parou)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Parada Cardíaca (Coração parou)</h2>
+            
+            <div class="protocol-section">
+                <h3>Sinais Principais:</h3>
+                <ul>
+                    <li>Perda de consciência – não responde quando chamada</li>
+                    <li>Ausência de respiração – peito não se move</li>
+                    <li>Ausência de pulso</li>
+                </ul>
+                
+                <h3>PROCEDIMENTO DE EMERGÊNCIA</h3>
+                
+                <h4>1. Verifique a Segurança do Local</h4>
+                <h4>2. Avalie o Estado de Consciência</h4>
+                <h4>3. Abra as Vias Aéreas</h4>
+                <h4>4. Verifique a Respiração (10 segundos)</h4>
+                
+                <h3>RESSUSCITAÇÃO CARDIOPULMONAR</h3>
+                
+                <h4>Sequência Básica:</h4>
+                <ul>
+                    <li>2 ventilações de resgate (tampe o nariz, sopre até ver o peito levantar).</li>
+                    <li>30 compressões torácicas (centro do peito, 5 cm de profundidade).</li>
+                    <li>Ritmo: 100-120 compressões por minuto.</li>
+                    <li>Continue 30:2 até ajuda chegar.</li>
+                </ul>
+                
+                <h4>Para Crianças (1 ano até puberdade):</h4>
+                <ul>
+                    <li>Comprima cerca de 1/3 da profundidade do tórax.</li>
+                    <li>Inicie com 5 ventilações de resgate.</li>
+                </ul>
+                
+                <h4>Para Bebês (até 1 ano):</h4>
+                <ul>
+                    <li>Use dois dedos para compressões.</li>
+                    <li>Comprima na linha mamilar.</li>
+                    <li>Cubra nariz e boca com sua boca para ventilar.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["parada cardíaca", "coração parou", "rcp", "massagem cardíaca", "compressão", "ventilação"]
+    },
+    
+    // PROTOCOLO 38 - Pedra nos Rins
+    {
+        id: 38,
+        titulo: "Pedra nos Rins",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pedra nos Rins</h2>
+            
+            <div class="protocol-section">
+                <h3>CHÁ PARA OS RINS</h3>
+                
+                <h4>1. Chá de abacateiro:</h4>
+                <ul>
+                    <li>1 litro de água + 10 folhas de abacateiro (secas).</li>
+                    <li>Ferver por 2-3 minutos, tampar e deixar 10 minutos.</li>
+                    <li>Beber ao longo do dia.</li>
+                    <li>Diurético, diminui ácido úrico, combate inflamação renal e pedras.</li>
+                </ul>
+                
+                <h4>2. Chá de Quebra Pedra ou Chá de cana do brejo:</h4>
+                <ul>
+                    <li>2 colheres de planta seca para 1 litro d'água.</li>
+                    <li>Infusão por 5-10 minutos.</li>
+                    <li>Beber por vários dias até a pedra sair.</li>
+                </ul>
+                
+                <h4>Para dores nos rins:</h4>
+                <ul>
+                    <li>Compressa de contraste: água quente 3 min + fria 30 seg, repetir 3 vezes.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["pedra nos rins", "rim", "cálculo renal", "abacateiro", "quebra pedra", "cana do brejo"]
+    },
+    
+    // PROTOCOLO 39 - Pedra na Vesícula
+    {
+        id: 39,
+        titulo: "Pedra na Vesícula",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pedra na Vesícula</h2>
+            
+            <div class="protocol-section">
+                <h3>Remédio Natural:</h3>
+                <ul>
+                    <li>1 caroço de abacate bem seco.</li>
+                    <li>Ralar bem fino na hora de consumir.</li>
+                    <li>Tomar 1 colherzinha rasa (chá) do pó em um copo de água morna.</li>
+                    <li>Fazer isso todas as noites antes de dormir.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["pedra na vesícula", "vesícula", "cálculo biliar", "abacate", "caroço de abacate"]
+    },
+    
+    // PROTOCOLO 40 - Picada de Abelhas / Vespas / Insetos
+    {
+        id: 40,
+        titulo: "Picada de Abelhas / Vespas / Insetos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Abelhas / Vespas / Insetos</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural:</h3>
+                
+                <h4>Cataplasma de carvão ativado:</h4>
+                <ul>
+                    <li>Misturar 3 partes de carvão ativado + 1 parte de casca de psyllium (ou linhaça) + água.</li>
+                    <li>Formar uma pasta e aplicar diretamente na picada.</li>
+                    <li>Cobrir com plástico e fixar com fita.</li>
+                    <li>Neutraliza toxinas e alivia a dor rapidamente.</li>
+                </ul>
+                
+                <h4>Em caso de alergia:</h4>
+                <ul>
+                    <li>Tomar 5 comprimidos de carvão ativado.</li>
+                    <li>Fazer pasta e aplicar no local.</li>
+                    <li>Evita choque anafilático e edema de glote.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["picada", "abelha", "vespa", "inseto", "alergia", "carvão ativado", "toxina"]
+    }
+];
