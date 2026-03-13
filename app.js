@@ -1990,3 +1990,1096 @@ const topicos = [
         palavrasChave: ["picada", "abelha", "vespa", "inseto", "alergia", "carvão ativado", "toxina"]
     }
 ];
+    // PROTOCOLO 41 - Picada de Aranha
+    {
+        id: 41,
+        titulo: "Picada de Aranha",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Aranha</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural:</h3>
+                
+                <h4>Cataplasma de carvão ativado:</h4>
+                <ul>
+                    <li>Misturar 3 partes de carvão ativado + 1 parte de casca de psyllium (ou linhaça) + água.</li>
+                    <li>Formar uma pasta e aplicar diretamente na picada.</li>
+                    <li>Cobrir com plástico e fixar com fita.</li>
+                    <li>Neutraliza toxinas e alivia a dor rapidamente.</li>
+                </ul>
+                
+                <h4>Em caso de aranha muito venenosa:</h4>
+                <ul>
+                    <li>Usar a pomada de açafrão, camomila e mel (para feridas crônicas e necrose).</li>
+                    <li>Aplicar topicamente e internamente em casos graves.</li>
+                    <li>Evita amputação e infecção generalizada.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["picada de aranha", "aranha", "veneno", "carvão ativado", "pomada de açafrão"]
+    },
+    
+    // PROTOCOLO 42 - Picada de Cobra
+    {
+        id: 42,
+        titulo: "Picada de Cobra (Acidente Ofídico)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Cobra (Acidente Ofídico)</h2>
+            
+            <div class="protocol-section">
+                <h3>O que Fazer (Primeiros Socorros Convencionais)</h3>
+                <ul>
+                    <li>Mantenha a vítima deitada e tranquila.</li>
+                    <li>Lave o local da picada apenas com água e sabão.</li>
+                    <li>Transporte a vítima imediatamente para um hospital.</li>
+                </ul>
+                
+                <h3>O que NÃO Fazer (Erros Graves)</h3>
+                <ul>
+                    <li>NÃO faça torniquete ou garrote.</li>
+                    <li>NÃO corte o local da picada.</li>
+                    <li>NÃO tente chupar o veneno.</li>
+                    <li>NÃO aplique folhas, terra ou outros "remédios".</li>
+                </ul>
+                
+                <h3>Tratamento Natural (complementar):</h3>
+                <ul>
+                    <li>Fazer pasta com carvão ativado e água, aplicar no local da picada.</li>
+                    <li>Trocar o carvão a cada 1 hora.</li>
+                    <li>Tomar 10 comprimidos de carvão ativado a cada 3 horas.</li>
+                    <li>Usar a pomada de açafrão, camomila e mel para necrose.</li>
+                </ul>
+                
+                <!-- IMAGEM FIGURA 19 -->
+                <div style="margin:20px 0; text-align:center;">
+                    <img src="/imagens/protocolo42-imagem19.jpg" alt="Figura 19" style="max-width:100%; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+                    <p><strong>Figura 19</strong> - Picada de cobra - áreas de maior risco</p>
+                </div>
+            </div>
+        `,
+        palavrasChave: ["picada de cobra", "cobra", "veneno", "ofídico", "carvão ativado", "soro antiofídico"]
+    },
+    
+    // PROTOCOLO 43 - Picada de Escorpião
+    {
+        id: 43,
+        titulo: "Picada de Escorpião",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Escorpião</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural:</h3>
+                <ul>
+                    <li>Aplicar pasta de carvão ativado (4-5 comprimidos com água) no local da picada.</li>
+                    <li>Tomar 5 comprimidos de carvão ativado (em casos graves).</li>
+                    <li>Repetir a cada 3 horas se necessário.</li>
+                    <li>Compressa de água fria para aliviar a dor.</li>
+                </ul>
+                
+                <p><strong>OBS:</strong> A picada de escorpião em crianças pode ser bem grave. Faça os procedimentos acima e procure ajuda médica urgente.</p>
+            </div>
+        `,
+        palavrasChave: ["picada de escorpião", "escorpião", "veneno", "carvão ativado", "criança"]
+    },
+    
+    // PROTOCOLO 44 - Pneumonia
+    {
+        id: 44,
+        titulo: "Pneumonia",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pneumonia</h2>
+            
+            <div class="protocol-section">
+                <p><strong>ATENÇÃO:</strong> A pneumonia é uma infecção pulmonar potencialmente grave. Este guia não substitui avaliação médica.</p>
+                
+                <h3>Sinais e Sintomas de Alerta:</h3>
+                <ul>
+                    <li>Tosse persistente (seca ou com catarro)</li>
+                    <li>Febre alta (acima de 38°C)</li>
+                    <li>Falta de ar ou dificuldade para respirar</li>
+                    <li>Dor no peito que piora ao respirar fundo</li>
+                </ul>
+                
+                <h3>Tratamento Natural:</h3>
+                <h4>1. Cataplasma de cebola na sola dos pés:</h4>
+                <ul>
+                    <li>Picar cebola crua e colocar em sacos plásticos.</li>
+                    <li>Colocar os pés sobre a cebola e cobrir com meias.</li>
+                    <li>Deixar agir durante a noite.</li>
+                </ul>
+                
+                <h4>2. Xarope de cebola e mel</h4>
+                <h4>3. "Penicilina Russa"</h4>
+                <h4>4. Inalação com chá de orégano, hortelã, camomila ou eucalipto</h4>
+            </div>
+        `,
+        palavrasChave: ["pneumonia", "pulmão", "infecção", "tosse", "febre", "cebola", "inalação"]
+    },
+    
+    // PROTOCOLO 45 - Pressão Alta ou Baixa
+    {
+        id: 45,
+        titulo: "Pressão Alta ou Baixa",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pressão Alta ou Baixa</h2>
+            
+            <div class="protocol-section">
+                <h3>Pressão Alta (Crise Hipertensiva)</h3>
+                <ul>
+                    <li>Ralar 3-4 cebolas e colocar os pés da pessoa sobre a cebola ralada.</li>
+                    <li>Preparar chá de capim cidreira + chapéu-de-couro (ou alecrim/embaúba).</li>
+                    <li>Beber o chá.</li>
+                    <li>Normaliza a pressão em 30 minutos.</li>
+                </ul>
+                
+                <h4>Outra opção:</h4>
+                <ul>
+                    <li>3 copos de água com 4 dentes de alho macerados (deixar de molho a noite).</li>
+                    <li>Ao tomar, acrescentar gotas de limão.</li>
+                </ul>
+                
+                <h3>Pressão Baixa</h3>
+                <ul>
+                    <li>Tomar um copo d'água com 1/4 de colher de chá de sal.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["pressão alta", "hipertensão", "pressão baixa", "hipotensão", "cebola", "alho", "sal"]
+    },
+    
+    // PROTOCOLO 46 - Prisão de Ventre
+    {
+        id: 46,
+        titulo: "Prisão de Ventre (constipação)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Prisão de Ventre (constipação)</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamentos Naturais:</h3>
+                
+                <h4>1. Compressa de óleo de rícino no abdômen:</h4>
+                <ul>
+                    <li>Ajuda a estimular o funcionamento do intestino.</li>
+                </ul>
+                
+                <h4>2. Chá de Sene:</h4>
+                <ul>
+                    <li>Laxante natural potente. Efeito em 6-12 horas.</li>
+                    <li>Usar com moderação (pode causar cólicas e dependência).</li>
+                </ul>
+                
+                <h4>3. Chá de Erva doce ou Funcho:</h4>
+                <ul>
+                    <li>Comece por esses. Se não fizer efeito, use o chá de Sene.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["prisão de ventre", "constipação", "intestino preso", "sene", "erva doce", "óleo de rícino"]
+    },
+    
+    // PROTOCOLO 47 - Queimaduras
+    {
+        id: 47,
+        titulo: "Queimaduras",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Queimaduras</h2>
+            
+            <div class="protocol-section">
+                <h3>Classificação das Queimaduras</h3>
+                
+                <h4>1º Grau:</h4>
+                <ul>
+                    <li>Atinge camada superficial da pele.</li>
+                    <li>Vermelhidão, dor leve, sem bolhas.</li>
+                </ul>
+                
+                <h4>2º Grau:</h4>
+                <ul>
+                    <li>Camadas mais profundas.</li>
+                    <li>Vermelhidão intensa, dor forte, bolhas.</li>
+                </ul>
+                
+                <h4>3º Grau:</h4>
+                <ul>
+                    <li>Todas as camadas da pele.</li>
+                    <li>Pele esbranquiçada ou carbonizada.</li>
+                    <li>Pode haver pouca dor (nervos destruídos).</li>
+                </ul>
+                
+                <h3>Primeiros Socorros Imediatos</h3>
+                <ul>
+                    <li>Afaste a vítima da fonte de calor.</li>
+                    <li>Resfrie a área com água corrente por 10-20 minutos.</li>
+                    <li>Não aplique gelo diretamente.</li>
+                    <li>Não estoure as bolhas.</li>
+                </ul>
+            </div>
+            
+            <div class="protocol-section">
+                <h3>TRATAMENTOS NATURAIS</h3>
+                <ul>
+                    <li>Resfriar a pele com água fria por 7 a 10 minutos.</li>
+                    <li>Aplicar pomada caseira feita com:
+                        <ul>
+                            <li>1 colher de sopa de açafrão (cúrcuma) em pó</li>
+                            <li>1 colher de sopa de camomila em pó</li>
+                            <li>200 ml de mel</li>
+                        </ul>
+                    </li>
+                    <li>Misturar bem por pelo menos 3 minutos.</li>
+                    <li>Aplicar 2 a 3 vezes ao dia.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["queimadura", "fogo", "escaldão", "bolha", "pomada", "açafrão", "mel", "camomila"]
+    },
+    
+    // PROTOCOLO 48 - Queimaduras de Taturanas
+    {
+        id: 48,
+        titulo: "Queimaduras de Taturanas / Lagartas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Queimaduras de Taturanas / Lagartas</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural:</h3>
+                <ul>
+                    <li>Aplicar uma pasta de Carvão ativado sobre a queimadura.</li>
+                    <li>Misturar carvão com água até formar pasta.</li>
+                    <li>Repetir após 10 minutos. Se necessário, mais vezes.</li>
+                    <li>Tomar meia colher de carvão em meio copo d'água (muito importante).</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["taturana", "lagarta", "queimadura", "carvão ativado", "veneno"]
+    },
+    
+    // PROTOCOLO 49 - RCP
+    {
+        id: 49,
+        titulo: "RCP (Ressuscitação Cardiopulmonar)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>RCP (Ressuscitação Cardiopulmonar)</h2>
+            
+            <div class="protocol-section">
+                <h3>PROCEDIMENTO DE EMERGÊNCIA</h3>
+                
+                <h4>1. AVALIAÇÃO INICIAL - ABCD</h4>
+                <ul>
+                    <li><strong>A</strong> – Via Aérea: Verificar e desobstruir</li>
+                    <li><strong>B</strong> – Respiração: Verificar se respira (5-10 segundos)</li>
+                    <li><strong>C</strong> – Circulação: Verificar pulso (máx. 10 segundos)</li>
+                    <li><strong>D</strong> – Desfibrilação: Chamar ajuda e buscar DEA</li>
+                </ul>
+                
+                <h4>2. SE NÃO RESPONDE E NÃO RESPIRA</h4>
+                <ul>
+                    <li>Ligue 192 (Samu) ou 193 (Bombeiros)</li>
+                    <li>Peça um DEA</li>
+                </ul>
+                
+                <h4>3. INICIAR COMPRESSÕES TORÁCICAS</h4>
+                <ul>
+                    <li>Vítima em superfície rígida</li>
+                    <li>Mãos no centro do tórax</li>
+                    <li>Frequência: 100-120/minuto</li>
+                    <li>Profundidade: 5-6 cm (adultos)</li>
+                </ul>
+                
+                <h4>4. VENTILAÇÕES</h4>
+                <ul>
+                    <li>30 compressões : 2 ventilações</li>
+                    <li>Incline a cabeça, eleve o queixo</li>
+                    <li>Sopre por 1 segundo observando elevação do tórax</li>
+                </ul>
+                
+                <!-- IMAGENS FIGURA 20 E 21 -->
+                <div style="margin:20px 0; text-align:center;">
+                    <img src="/imagens/protocolo49-imagem20.jpg" alt="Figura 20" style="max-width:100%; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+                    <p><strong>Figura 20</strong> - Posição das mãos para RCP</p>
+                </div>
+                
+                <div style="margin:20px 0; text-align:center;">
+                    <img src="/imagens/protocolo49-imagem21.jpg" alt="Figura 21" style="max-width:100%; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+                    <p><strong>Figura 21</strong> - Compressões torácicas em adulto</p>
+                </div>
+                
+                <h4>TEMPOS CRÍTICOS</h4>
+                <ul>
+                    <li>0-4 min: Danos reversíveis</li>
+                    <li>4-6 min: Possível dano cerebral</li>
+                    <li>6-10 min: Danos cerebrais prováveis</li>
+                    <li>+10 min: Danos cerebrais severos</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["rcp", "ressuscitação", "massagem cardíaca", "parada", "compressão", "ventilação"]
+    },
+    
+    // PROTOCOLO 50 - Taquicardia
+    {
+        id: 50,
+        titulo: "Taquicardia (Coração disparou)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Taquicardia (Coração disparou)</h2>
+            
+            <div class="protocol-section">
+                <h3>Sinais e Sintomas:</h3>
+                <ul>
+                    <li>Coração acelerado (>100 bpm em repouso)</li>
+                    <li>Falta de ar</li>
+                    <li>Tontura ou vertigem</li>
+                    <li>Desconforto no peito</li>
+                </ul>
+                
+                <h3>Primeiras Medidas Imediatas:</h3>
+                <ul>
+                    <li>Sente-se ou deite-se</li>
+                    <li>Respiração lenta e profunda</li>
+                    <li>Mergulhe o rosto em água fria</li>
+                    <li>Manobra de Valsalva (tampe nariz, feche boca e tente expirar com força)</li>
+                </ul>
+                
+                <h3>TRATAMENTO NATURAL:</h3>
+                <ul>
+                    <li>Colocar os cotovelos em uma bacia com água fria por 3-5 minutos.</li>
+                    <li>Normaliza o ritmo cardíaco rapidamente.</li>
+                </ul>
+                
+                <h3>Quando buscar ajuda:</h3>
+                <ul>
+                    <li>Dor no peito intensa</li>
+                    <li>Desmaio</li>
+                    <li>Sintomas persistentes por mais de 15 minutos</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["taquicardia", "coração acelerado", "palpitação", "arritmia", "água fria"]
+    },
+    
+    // PROTOCOLO 51 - Tosse persistente
+    {
+        id: 51,
+        titulo: "Tosse persistente",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Tosse persistente</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural:</h3>
+                
+                <h4>1. Cataplasma de cebola na sola dos pés:</h4>
+                <ul>
+                    <li>Picar cebola crua e colocar em sacos plásticos.</li>
+                    <li>Colocar os pés sobre a cebola e cobrir com meias.</li>
+                    <li>Deixar agir durante a noite.</li>
+                </ul>
+                
+                <h4>2. Xarope de cebola e mel:</h4>
+                <ul>
+                    <li>Camadas alternadas de cebola fatiada e mel.</li>
+                    <li>Deixar descansar por 24 horas.</li>
+                    <li>Coar e tomar para alívio da tosse.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["tosse", "persistente", "xarope", "cebola", "mel", "cataplasma"]
+    },
+    
+    // PROTOCOLO 52 - Trauma Craniano
+    {
+        id: 52,
+        titulo: "Trauma Craniano (Batida forte na cabeça)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Trauma Craniano (Batida forte na cabeça)</h2>
+            
+            <div class="protocol-section">
+                <h3>Sinais de alerta:</h3>
+                <ul>
+                    <li>Dor de cabeça intensa</li>
+                    <li>Sangramento no couro cabeludo, nariz ou ouvidos</li>
+                    <li>Náusea e vômito</li>
+                    <li>Sonolência ou confusão mental</li>
+                    <li>Convulsões</li>
+                    <li>Pupilas de tamanhos diferentes</li>
+                </ul>
+                
+                <h3>O que fazer:</h3>
+                <ul>
+                    <li>Acione imediatamente o SAMU (192)</li>
+                    <li>Mantenha a vítima deitada e imóvel</li>
+                    <li>Se houver sangramento, comprima levemente com pano limpo</li>
+                    <li>Se inconsciente mas respirando, coloque em posição lateral de segurança (sem suspeita de fratura na coluna)</li>
+                </ul>
+                
+                <h3>O que não fazer:</h3>
+                <ul>
+                    <li>Não mover a vítima sem necessidade</li>
+                    <li>Não dar água, alimentos ou remédios</li>
+                    <li>Não limpar sangue que sai dos ouvidos/nariz</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["trauma craniano", "cabeça", "batida", "concussão", "sangramento", "samu"]
+    },
+    
+    // PROTOCOLO 53 - Varizes
+    {
+        id: 53,
+        titulo: "Varizes",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Varizes</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamentos Naturais:</h3>
+                <ul>
+                    <li>Pegue tomate verde e corte ao meio. Aplique sobre as varizes e deixe agir por 5 minutos. 1-2 vezes ao dia durante 10 dias.</li>
+                    <li>Chá de folha da uva: 1 litro de água para 7 folhas. Tomar uma xícara 3x ao dia.</li>
+                    <li>Banhar as pernas com chá de folhas de sinamomo.</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["varizes", "pernas", "circulação", "tomate", "uva", "sinamomo"]
+    }
+];
+
+// =====================================
+// SEÇÃO 2: FARMÁCIA NATURAL
+// =====================================
+
+// PROTOCOLO 54 - Antibiótico Natural
+topicos.push({
+    id: 54,
+    titulo: "Antibiótico Natural",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Antibiótico Natural</h2>
+        
+        <div class="protocol-section">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>3 limões (um deles com casca)</li>
+                <li>2 dentes de alho</li>
+                <li>1 pedaço de cebola roxa</li>
+                <li>1 copo de água filtrada ou suco de laranja</li>
+            </ul>
+            
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Bata tudo muito bem no liquidificador.</li>
+                <li>Coe e coloque 25 gotas de própolis e 1 colher de mel.</li>
+                <li>Misture e beba na mesma hora.</li>
+            </ul>
+            
+            <p><strong>Benefícios:</strong> Melhora imunidade, desintoxica, anti-inflamatório, combate febre.</p>
+        </div>
+    `,
+    palavrasChave: ["antibiótico natural", "imunidade", "alho", "limão", "própolis", "cebola"]
+});
+
+// PROTOCOLO 55 - Extrato de Alho
+topicos.push({
+    id: 55,
+    titulo: "Extrato de Alho",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Extrato de Alho</h2>
+        
+        <div class="protocol-section">
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Amassar uma cabeça de Alho.</li>
+                <li>Colocar em 100ml de álcool de cereais.</li>
+                <li>Esperar no mínimo 10 dias antes de usar.</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["extrato de alho", "alho", "tintura"]
+});
+
+// PROTOCOLO 56 - Fortificante de Uva
+topicos.push({
+    id: 56,
+    titulo: "Fortificante de Uva",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Fortificante de Uva</h2>
+        
+        <div class="protocol-section">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1,5 litro de suco de uva integral (sem açúcar)</li>
+                <li>7 limões (suco)</li>
+                <li>7 dentes de alho</li>
+                <li>1 cebola média</li>
+                <li>5cm de babosa (gel)</li>
+                <li>10-20 ameixas secas (opcional)</li>
+            </ul>
+            
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Bater tudo no liquidificador.</li>
+                <li>Coar e guardar na geladeira.</li>
+                <li>Acrescentar 20 gotas de própolis (conservante).</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["fortificante", "uva", "alho", "cebola", "babosa", "imunidade"]
+});
+
+// PROTOCOLO 57 - Garrafada de Babosa e Mel
+topicos.push({
+    id: 57,
+    titulo: "Garrafada de Babosa e Mel",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Garrafada de Babosa e Mel</h2>
+        
+        <div class="protocol-section">
+            <h3>Preparo:</h3>
+            <ul>
+                <li>3 folhas grandes de Babosa, deixar de molho para sair a baba amarela.</li>
+                <li>Retirar os espinhos e a casca de um lado.</li>
+                <li>Retirar a polpa (gel) com uma colher.</li>
+                <li>Acrescentar 500g de mel.</li>
+                <li>Armazenar em garrafa escura na geladeira.</li>
+            </ul>
+            
+            <h3>Como tomar:</h3>
+            <ul>
+                <li>Acima de 12 anos: 1 colher de sopa manhã e noite (1ª semana).</li>
+                <li>Se não der diarréia, dobrar para 2 colheres.</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["garrafada", "babosa", "aloe vera", "mel", "imunidade"]
+});
+
+// PROTOCOLO 58 - Penicilina Russa
+topicos.push({
+    id: 58,
+    titulo: "Penicilina Russa",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Penicilina Russa</h2>
+        
+        <div class="protocol-section">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>2 laranjas (caldo)</li>
+                <li>2 limões (caldo)</li>
+                <li>2 dentes de alho amassados</li>
+                <li>2 colheres (sopa) de mel</li>
+                <li>Meio copo de água</li>
+            </ul>
+            
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Bater tudo e tomar imediatamente.</li>
+                <li>Não guardar para depois.</li>
+            </ul>
+            
+            <h3>Indicações:</h3>
+            <ul>
+                <li>Inflamações (garganta, ouvido, etc.)</li>
+                <li>Feridas, bronquite, pneumonia, asma</li>
+                <li>Tosse, sinusite, rinite</li>
+                <li>Furúnculos, aumentar imunidade</li>
+            </ul>
+            
+            <h3>Dosagem:</h3>
+            <ul>
+                <li>Adultos: tomar 2 vezes ao dia</li>
+                <li>Crianças >7 anos: metade da dose, 2x ao dia</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["penicilina russa", "inflamação", "garganta", "alho", "limão", "laranja", "mel"]
+});
+
+// PROTOCOLO 59 - Pasta de Inhame e Gengibre
+topicos.push({
+    id: 59,
+    titulo: "Pasta de Inhame e Gengibre",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Pasta de Inhame e Gengibre</h2>
+        
+        <div class="protocol-section">
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Ralar inhame e gengibre (1 parte de gengibre para 10 de inhame).</li>
+                <li>Misturar com farinha para dar liga (pasta úmida).</li>
+                <li>Aplicar sobre a região e cobrir com gaze (nunca plástico).</li>
+                <li>Quando secar, retirar com água morna e colocar novo.</li>
+            </ul>
+            
+            <h3>Indicações:</h3>
+            <ul>
+                <li>"Puxa" furúnculos, quistos, unhas encravadas, verrugas, farpas.</li>
+                <li>Desinflama cicatrizes, abscessos, tumores.</li>
+                <li>Fraturas, queimaduras (evita inchaço e dor).</li>
+                <li>Hemorroidas, apendicite, artrite, reumatismo.</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["inhame", "gengibre", "pasta", "emplastro", "furúnculo", "abcesso"]
+});
+
+// PROTOCOLO 60 - Pomada para queimaduras
+topicos.push({
+    id: 60,
+    titulo: "Pomada de Açafrão, Camomila e Mel",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Pomada de Açafrão, Camomila e Mel</h2>
+        
+        <div class="protocol-section">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1 colher de sopa de açafrão (cúrcuma) em pó</li>
+                <li>1 colher de sopa de camomila em pó</li>
+                <li>200 ml de mel</li>
+            </ul>
+            
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Misturar bem por pelo menos 3 minutos.</li>
+                <li>Cobrir a ferida com a pomada.</li>
+                <li>Aplicar 2-3 vezes ao dia.</li>
+            </ul>
+            
+            <h3>Versão avançada para casos graves:</h3>
+            <ul>
+                <li>Acrescentar 20 pimentas malaguetas trituradas (sem sementes).</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["pomada", "açafrão", "camomila", "mel", "queimadura", "ferida"]
+});
+
+// PROTOCOLO 61 - Repelente Natural
+topicos.push({
+    id: 61,
+    titulo: "Repelente Natural para Insetos",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Repelente Natural para Insetos</h2>
+        
+        <div class="protocol-section">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>100 ml de Óleo de Amêndoas</li>
+                <li>30 cravos da índia</li>
+                <li>Meio litro de Álcool</li>
+                <li>2 folhas de Citronela (opcional)</li>
+            </ul>
+            
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Misturar todos os ingredientes em uma garrafa.</li>
+                <li>Sacudir bem para misturar.</li>
+                <li>Deixar descansar 24 horas.</li>
+                <li>Pronto para usar.</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["repelente", "inseto", "mosquito", "cravo", "citronela", "óleo de amêndoas"]
+});
+
+// PROTOCOLO 62 - Tônico Energizante
+topicos.push({
+    id: 62,
+    titulo: "Tônico Energizante",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Tônico Energizante</h2>
+        
+        <div class="protocol-section">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1 quiabo cru</li>
+                <li>1 folha de couve manteiga crua</li>
+                <li>Meio litro de água</li>
+                <li>2 colheres de mel ou melado</li>
+            </ul>
+            
+            <h3>Preparo:</h3>
+            <ul>
+                <li>Bater tudo no liquidificador.</li>
+                <li>Não precisa coar.</li>
+                <li>Consumir o suco todo no mesmo dia.</li>
+            </ul>
+            
+            <h3>Indicações:</h3>
+            <ul>
+                <li>Anemia, artrite, artrose, bursite, tendinite</li>
+                <li>Câncer, cérebro (raciocínio)</li>
+                <li>Febre (dengue, zika, covid)</li>
+                <li>Fraqueza, fraturas, gastrite</li>
+                <li>Osteoporose, queda de cabelo, unhas fracas</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["tônico", "energizante", "quiabo", "couve", "mel", "imunidade", "anemia"]
+});
+
+// =====================================
+// SEÇÃO 3: TENHA EM CASA E KITS
+// =====================================
+
+// PROTOCOLO 63 - Tenha em Casa
+topicos.push({
+    id: 63,
+    titulo: "Tenha em Casa - Ingredientes Chave",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Tenha em Casa - Ingredientes Chave</h2>
+        
+        <div class="protocol-section">
+            <ul>
+                <li><strong>Carvão ativado:</strong> Intoxicações, picadas, alergias.</li>
+                <li><strong>Pomada de açafrão, camomila e mel:</strong> Queimaduras, feridas.</li>
+                <li><strong>Pimenta malagueta:</strong> Infarto, hemorroidas.</li>
+                <li><strong>Alho:</strong> AVC, vasodilatação, antibiótico.</li>
+                <li><strong>Cebola:</strong> Pressão alta, queimaduras, problemas respiratórios.</li>
+                <li><strong>Ervas:</strong> Capim-cidreira, chapéu-de-couro, alecrim.</li>
+                <li><strong>Limão:</strong> Infarto, potencializar tratamentos.</li>
+                <li><strong>Gel de babosa:</strong> Insolação, queimaduras.</li>
+                <li><strong>Vinagre de maçã:</strong> Alergias, coceira.</li>
+                <li><strong>Repolho e mel:</strong> Dores articulares.</li>
+                <li><strong>Batata:</strong> Inflamações.</li>
+                <li><strong>Óleo de rícino:</strong> Dissolve nódulos.</li>
+                <li><strong>Pimenta caiena:</strong> Circulação.</li>
+                <li><strong>Bicarbonato de sódio:</strong> Problemas nos olhos, aftas.</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["tenha em casa", "ingredientes", "kit", "emergência", "naturais"]
+});
+
+// PROTOCOLO 64 - Kit de Emergência Portátil
+topicos.push({
+    id: 64,
+    titulo: "Kit de Emergência Portátil - Básico",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Kit de Emergência Portátil - Básico</h2>
+        
+        <div class="protocol-section">
+            <h3>Itens Básicos:</h3>
+            <ul>
+                <li>Caixa de primeiros socorros</li>
+                <li>Gaze estéril (5 unidades)</li>
+                <li>Esparadrapo ou fita micropore</li>
+                <li>Bandaid de vários tamanhos</li>
+                <li>Ataduras de crepe e triangular</li>
+                <li>Tesoura sem ponta, pinça</li>
+                <li>Luvas descartáveis</li>
+                <li>Analgésico e antitérmico</li>
+                <li>Pomada para queimaduras</li>
+                <li>Soro fisiológico</li>
+                <li>Antisséptico</li>
+                <li>Repelente, protetor solar</li>
+                <li>Lenços umedecidos, álcool em gel</li>
+            </ul>
+            
+            <h3>Itens Naturais:</h3>
+            <ul>
+                <li>Carvão vegetal (pó ou cápsulas)</li>
+                <li>Pimenta Malagueta</li>
+                <li>Pomada Natural para feridas</li>
+                <li>Repelente Natural</li>
+            </ul>
+            
+            <h3>Opcionais:</h3>
+            <ul>
+                <li>Colar cervical para Torcicolo</li>
+                <li>Aparelho de desengasgo</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["kit", "emergência", "portátil", "primeiros socorros", "itens"]
+});
+
+// PROTOCOLO 65 - Kit para Áreas Remotas
+topicos.push({
+    id: 65,
+    titulo: "Kit de Emergência para Áreas Remotas",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Kit de Emergência para Áreas Remotas</h2>
+        
+        <div class="protocol-section">
+            <h3>Acrescente ao Kit Básico:</h3>
+            
+            <h4>Sobrevivência e Utilidades:</h4>
+            <ul>
+                <li>Lanterna com pilhas extras</li>
+                <li>Power bank</li>
+                <li>Apito de emergência</li>
+                <li>Canivete multiuso</li>
+                <li>Corda (3 metros)</li>
+                <li>Fita adesiva prateada</li>
+                <li>Isqueiro ou fósforos à prova d'água</li>
+                <li>Manta térmica</li>
+                <li>Capa de chuva</li>
+            </ul>
+            
+            <h4>Alimentação e Hidratação:</h4>
+            <ul>
+                <li>Água mineral</li>
+                <li>Sachês de sal e açúcar</li>
+            </ul>
+            
+            <h4>Itens Pessoais:</h4>
+            <ul>
+                <li>Dinheiro em espécie</li>
+                <li>Cópia de documentos</li>
+                <li>Medicamentos de uso pessoal</li>
+            </ul>
+            
+            <h4>Itens Adicionais para Acampamento:</h4>
+            <ul>
+                <li>Purificador de água em pastilhas</li>
+                <li>Kit de pesca compacto</li>
+                <li>Bússola</li>
+                <li>Apito com espelho de sinalização</li>
+            </ul>
+        </div>
+    `,
+    palavrasChave: ["kit remoto", "área remota", "campo", "sobrevivência", "acampamento"]
+});
+
+// PROTOCOLO 66 - Referências
+topicos.push({
+    id: 66,
+    titulo: "Referências de Pesquisa",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Referências de Pesquisa</h2>
+        
+        <div class="protocol-section">
+            <ul>
+                <li>Dr. João Vaz – Especialista em nutrição Funcional</li>
+                <li>Bárbara Oneill – Naturopata</li>
+                <li>Dr. Adriano Silva – Naturopata</li>
+                <li>Livro "Onde Não Há Médico" – David Werner</li>
+                <li>Busca na Internet com auxílio de IA</li>
+            </ul>
+            <p><em>Compilado por Flávio Vieira, estudante de Naturopatia e Saúde.</em></p>
+        </div>
+    `,
+    palavrasChave: ["referências", "fontes", "bibliografia", "david werner", "naturopatia"]
+});
+
+// =====================================
+// FUNÇÕES DO APP (NÃO MEXER)
+// =====================================
+function initApp() {
+    criarIndiceAlfabetico();
+    carregarListaTopicos();
+    configurarBusca();
+}
+
+function criarIndiceAlfabetico() {
+    const alphaIndex = document.getElementById('alphaIndex');
+    const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    
+    letras.forEach(letra => {
+        const div = document.createElement('div');
+        div.className = 'alpha-letter';
+        div.textContent = letra;
+        div.onclick = () => filtrarPorLetra(letra);
+        alphaIndex.appendChild(div);
+    });
+}
+
+function carregarListaTopicos(filtro = '') {
+    const topicsList = document.getElementById('topicsList');
+    topicsList.innerHTML = '';
+
+    const topicosFiltrados = topicos.filter(topico => 
+        topico.titulo.toLowerCase().includes(filtro.toLowerCase()) ||
+        (topico.palavrasChave && topico.palavrasChave.some(palavra => 
+            palavra.toLowerCase().includes(filtro.toLowerCase())
+        ))
+    );
+
+    if (topicosFiltrados.length === 0) {
+        topicsList.innerHTML = '<div class="no-results">Nenhum tópico encontrado</div>';
+        return;
+    }
+
+    topicosFiltrados.forEach(topico => {
+        const div = document.createElement('div');
+        div.className = 'topic-item';
+        div.innerHTML = `<h3>${topico.titulo}</h3>`;
+        div.onclick = () => mostrarProtocolo(topico.id);
+        topicsList.appendChild(div);
+    });
+}
+
+function filtrarPorLetra(letra) {
+    const topicosFiltrados = topicos.filter(topico => 
+        topico.titulo.toUpperCase().startsWith(letra)
+    );
+    
+    const topicsList = document.getElementById('topicsList');
+    topicsList.innerHTML = '';
+
+    if (topicosFiltrados.length === 0) {
+        topicsList.innerHTML = '<div class="no-results">Nenhum tópico encontrado com a letra ' + letra + '</div>';
+        return;
+    }
+
+    topicosFiltrados.forEach(topico => {
+        const div = document.createElement('div');
+        div.className = 'topic-item';
+        div.innerHTML = `<h3>${topico.titulo}</h3>`;
+        div.onclick = () => mostrarProtocolo(topico.id);
+        topicsList.appendChild(div);
+    });
+
+    topicsList.scrollIntoView({ behavior: 'smooth' });
+}
+
+function configurarBusca() {
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            carregarListaTopicos(e.target.value);
+        });
+    }
+}
+
+function mostrarProtocolo(id) {
+    const topico = topicos.find(t => t.id === id);
+    if (!topico) return;
+
+    document.getElementById('topicsContainer').style.display = 'none';
+    document.getElementById('protocolContent').style.display = 'block';
+    document.getElementById('protocolContent').innerHTML = topico.conteudo;
+}
+
+function voltarParaLista() {
+    document.getElementById('topicsContainer').style.display = 'block';
+    document.getElementById('protocolContent').style.display = 'none';
+}
+
+// Funções para o menu principal (Introdução, Importante, Índice)
+function mostrarIntroducao() {
+    const content = document.getElementById('protocolContent');
+    content.innerHTML = `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Introdução</h2>
+        
+        <div class="protocol-section">
+            <p>Bem-vindo ao aplicativo <strong>Primeiros Socorros - Métodos Normais e Naturais</strong>.</p>
+            <p>Este guia foi desenvolvido para fornecer instruções rápidas, claras e objetivas sobre como agir em situações de emergência, utilizando tanto métodos convencionais quanto alternativos naturais.</p>
+        </div>
+
+        <div class="protocol-section">
+            <h3>📌 Objetivo</h3>
+            <p>Oferecer informações confiáveis e acessíveis para que qualquer pessoa possa prestar os primeiros atendimentos enquanto aguarda ajuda profissional.</p>
+        </div>
+
+        <div class="protocol-section">
+            <h3>⚠️ Aviso Importante</h3>
+            <p>Este aplicativo é um guia informativo e não substitui treinamento profissional em primeiros socorros. Em casos de emergência grave, sempre priorize o atendimento médico especializado.</p>
+        </div>
+
+        <div class="protocol-section">
+            <h3>📞 Telefones de Emergência</h3>
+            <ul>
+                <li><strong>Samu:</strong> 192</li>
+                <li><strong>Bombeiros:</strong> 193</li>
+                <li><strong>Polícia:</strong> 190</li>
+                <li><strong>Defesa Civil:</strong> 199</li>
+            </ul>
+        </div>
+    `;
+    
+    document.getElementById('topicsContainer').style.display = 'none';
+    content.style.display = 'block';
+}
+
+function mostrarImportante() {
+    const content = document.getElementById('protocolContent');
+    content.innerHTML = `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Importante Saber</h2>
+        
+        <div class="protocol-section">
+            <h3>🔴 Antes de tudo, lembre-se:</h3>
+            <ul>
+                <li><strong>Não entre em pânico</strong> – A calma é essencial.</li>
+                <li><strong>Verifique a segurança do local</strong> – Não se torne mais uma vítima.</li>
+                <li><strong>Peça ajuda</strong> – Ligue 192 ou 193.</li>
+                <li><strong>Não mova a vítima</strong> – A menos que haja perigo iminente.</li>
+            </ul>
+        </div>
+
+        <div class="protocol-section">
+            <h3>📋 Avaliação Inicial (ABCDE)</h3>
+            <ul>
+                <li><strong>A</strong> – Vias aéreas: Verifique se estão desobstruídas.</li>
+                <li><strong>B</strong> – Respiração: Veja se a vítima respira.</li>
+                <li><strong>C</strong> – Circulação: Verifique pulso e sangramentos.</li>
+                <li><strong>D</strong> – Neurológico: Avalie consciência.</li>
+                <li><strong>E</strong> – Exposição: Procure lesões visíveis.</li>
+            </ul>
+        </div>
+
+        <div class="protocol-section">
+            <h3>⚠️ O que NÃO fazer:</h3>
+            <ul>
+                <li>Não ofereça alimentos a vítima inconsciente.</li>
+                <li>Não remova objetos encravados.</li>
+                <li>Não ignore sinais de choque.</li>
+            </ul>
+        </div>
+    `;
+    
+    document.getElementById('topicsContainer').style.display = 'none';
+    content.style.display = 'block';
+}
+
+function mostrarIndice() {
+    document.getElementById('topicsContainer').style.display = 'block';
+    document.getElementById('protocolContent').style.display = 'none';
+    document.getElementById('topicsList').scrollIntoView({ behavior: 'smooth' });
+}
+
+// Lógica do botão PWA (instalação)
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    const pwaButton = document.getElementById('pwaInstallButton');
+    if (pwaButton) pwaButton.style.display = 'block';
+});
+
+document.addEventListener('click', (e) => {
+    if (e.target.closest('#pwaInstallButton')) {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        deferredPrompt = null;
+        document.getElementById('pwaInstallButton').style.display = 'none';
+    }
+});
+
+// Inicializar app quando a página carregar
+document.addEventListener('DOMContentLoaded', initApp);
