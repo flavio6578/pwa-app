@@ -578,3 +578,525 @@ const topicos = [
         palavrasChave: ["dor muscular", "torcicolo", "músculo", "repolho", "gengibre"]
     }
 ];
+    // PROTOCOLO 21 - Dor de Ouvido
+    {
+        id: 21,
+        titulo: "Dor de Ouvido",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Dor de Ouvido</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamentos Naturais:</h3>
+                <ul>
+                    <li>Cataplasma de cebola cozida: extrair o suco e colocar gotas no ouvido</li>
+                    <li>Chá da casca da laranja ou limão (ferver em meio litro de água)</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["dor de ouvido", "ouvido", "cebola", "laranja", "limão"]
+    },
+    
+    // PROTOCOLO 22 - Embriaguez / Alcoolismo
+    {
+        id: 22,
+        titulo: "Embriaguez / Alcoolismo",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Embriaguez / Alcoolismo</h2>
+            
+            <div class="protocol-section">
+                <h3>Embriaguez</h3>
+                <ul>
+                    <li>Tomar 4 a 5 comprimidos de carvão ativado (reduz efeitos em 10-20 min)</li>
+                </ul>
+                <h3>Alcoolismo</h3>
+                <ul>
+                    <li>Extrato de alho em álcool (25 gotas em água, 3x ao dia)</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["embriaguez", "bebedeira", "álcool", "alcoolismo", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 23 - Engasgo em Adultos
+    {
+        id: 23,
+        titulo: "Engasgo em Adultos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Engasgo em Adultos</h2>
+            
+            <div class="protocol-section">
+                <h3>O que fazer</h3>
+                <ul>
+                    <li>Engasgo parcial: incentive a tossir com força</li>
+                    <li>Engasgo total: Manobra de Heimlich (compressões abdominais)</li>
+                    <li>Se perder a consciência, inicie RCP</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Desengasgador</p>
+                <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["engasgo", "heimlich", "adulto", "obstrução"]
+    },
+    
+    // PROTOCOLO 24 - Engasgo em Crianças
+    {
+        id: 24,
+        titulo: "Engasgo em Crianças",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Engasgo em Crianças</h2>
+            
+            <div class="protocol-section">
+                <h3>Crianças (>1 ano)</h3>
+                <ul>
+                    <li>Mesmo procedimento do adulto, com menos força</li>
+                </ul>
+                <h3>Bebês (<1 ano)</h3>
+                <ul>
+                    <li>5 tapas nas costas (barriga para baixo)</li>
+                    <li>5 compressões torácicas (barriga para cima, 2 dedos)</li>
+                    <li>Alternar até sair o objeto</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Desengasgador</p>
+                <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["engasgo", "criança", "bebê", "tapas nas costas"]
+    },
+    
+    // PROTOCOLO 25 - Entorse / Luxações
+    {
+        id: 25,
+        titulo: "Entorse / Luxações",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Entorse / Luxações</h2>
+            
+            <div class="protocol-section">
+                <h3>Entorse</h3>
+                <ul>
+                    <li>Protocolo GECA: Guardar, Gelar, Comprimir, Elevar</li>
+                    <li>Folhas de repolho amassadas com mel</li>
+                    <li>Cataplasma de gengibre ralado</li>
+                </ul>
+                <h3>Luxação</h3>
+                <ul>
+                    <li>Não tente recolocar</li>
+                    <li>Imobilize na posição em que está</li>
+                    <li>Aplique compressa fria</li>
+                    <li>Busque atendimento médico urgente</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Tornozeleira Ortopédica</p>
+                <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["entorse", "luxação", "torção", "articulação"]
+    },
+    
+    // PROTOCOLO 26 - Farpas / Corpos estranhos na pele
+    {
+        id: 26,
+        titulo: "Farpas ou corpos estranhos na pele",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Farpas ou corpos estranhos na pele</h2>
+            
+            <div class="protocol-section">
+                <h3>Remoção</h3>
+                <ul>
+                    <li>Lave as mãos e esterilize a pinça</li>
+                    <li>Puxe na mesma direção que entrou</li>
+                    <li>Para farpas profundas: cataplasma de batata ou inhame com gengibre</li>
+                </ul>
+                <h3>Sinais de infecção</h3>
+                <ul>
+                    <li>Vermelhidão, inchaço, pus, febre → procure ajuda médica</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["farpa", "espinho", "corpo estranho", "pele"]
+    },
+    
+    // PROTOCOLO 27 - Febre alta
+    {
+        id: 27,
+        titulo: "Febre alta",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Febre alta</h2>
+            
+            <div class="protocol-section">
+                <h3>Sintomas</h3>
+                <ul>
+                    <li>Temperatura >38,5°C, calafrios, pele quente</li>
+                </ul>
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Hidratação: água, água de coco, soro caseiro</li>
+                    <li>Banho morno (nunca frio)</li>
+                    <li>Compressas frias na testa, pulsos, nuca</li>
+                    <li>Chá de sabugueiro, gengibre, camomila com hortelã</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["febre", "alta", "temperatura", "calafrios"]
+    },
+    
+    // PROTOCOLO 28 - Feridas
+    {
+        id: 28,
+        titulo: "Feridas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Feridas</h2>
+            
+            <div class="protocol-section">
+                <h3>Feridas Crônicas</h3>
+                <ul>
+                    <li>Pomada de açafrão, camomila e mel</li>
+                    <li>Aplicar 2x ao dia</li>
+                    <li>À noite, carvão em pó para evitar pus</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["ferida", "corte", "cicatrização", "pomada"]
+    },
+    
+    // PROTOCOLO 29 - Ferimento com prego enferrujado
+    {
+        id: 29,
+        titulo: "Ferimento com prego enferrujado",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Ferimento com prego enferrujado</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Cataplasma de batata ralada</li>
+                    <li>Pasta de inhame e gengibre</li>
+                    <li>Tomar "Penicilina Russa" (Farmácia Natural)</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["prego", "enferrujado", "ferimento", "tétano"]
+    },
+    
+    // PROTOCOLO 30 - Fraturas
+    {
+        id: 30,
+        titulo: "Fraturas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Fraturas</h2>
+            
+            <div class="protocol-section">
+                <h3>Identificação</h3>
+                <ul>
+                    <li>Dor intensa, inchaço, deformidade, incapacidade de usar o membro</li>
+                </ul>
+                <h3>Imobilização</h3>
+                <ul>
+                    <li>Não tente alinhar o osso</li>
+                    <li>Use talas improvisadas (galhos, jornais, papelão)</li>
+                    <li>Fixe com tiras de pano, cintos ou cordas</li>
+                    <li>Braço: tipoia com camiseta</li>
+                    <li>Perna: amarrar as pernas juntas (a sã serve de tala)</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTOS RECOMENDADOS -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produtos recomendados:</strong> Colar Cervical | Tornozeleira Ortopédica</p>
+                <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["fratura", "osso quebrado", "imobilizar", "tala"]
+    },
+    
+    // PROTOCOLO 31 - Furúnculos
+    {
+        id: 31,
+        titulo: "Furúnculos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Furúnculos</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamentos Naturais</h3>
+                <ul>
+                    <li>Cataplasma de cebola cozida diretamente sobre o furúnculo</li>
+                    <li>Cataplasma de repolho com limão</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["furúnculo", "pus", "infecção"]
+    },
+    
+    // PROTOCOLO 32 - Hemorróidas
+    {
+        id: 32,
+        titulo: "Hemorróidas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Hemorróidas</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Tomar 1 colher de chá da pomada de açafrão, camomila e mel (3-5x/dia)</li>
+                    <li>Uso tópico: adicionar pimenta malagueta à pomada</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["hemorróida", "pomada", "açafrão", "pimenta"]
+    },
+    
+    // PROTOCOLO 33 - Hipotermia
+    {
+        id: 33,
+        titulo: "Hipotermia",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Hipotermia</h2>
+            
+            <div class="protocol-section">
+                <h3>Sinais</h3>
+                <ul>
+                    <li>Leve: calafrios, pele fria, fala arrastada</li>
+                    <li>Grave: ausência de calafrios, perda de consciência</li>
+                </ul>
+                <h3>Tratamento</h3>
+                <ul>
+                    <li>Remova roupas molhadas</li>
+                    <li>Aqueça o tronco primeiro (compressas mornas, contato corporal)</li>
+                    <li>Ofereça líquidos quentes (se consciente)</li>
+                    <li>Não aqueça braços e pernas primeiro</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Cobertor Manta Térmica Aluminizado</p>
+                <a href="https://sites.google.com/view/07store/equipamentos" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["hipotermia", "frio", "calafrio", "aquecer"]
+    },
+    
+    // PROTOCOLO 34 - Intoxicação
+    {
+        id: 34,
+        titulo: "Intoxicação Alimentar / Química / Medicamentos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Intoxicação Alimentar / Química / Medicamentos</h2>
+            
+            <div class="protocol-section">
+                <h3>O que fazer</h3>
+                <ul>
+                    <li>Identifique o agente causador</li>
+                    <li>Não provoque vômito (a menos que instruído)</li>
+                    <li>Hidratação: soro caseiro, água de coco</li>
+                    <li>Contato com pele: lave com água corrente</li>
+                    <li>Inalação: leve para local arejado</li>
+                </ul>
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Tomar 3-4 comprimidos de carvão ativado</li>
+                    <li>Repetir a cada 3 horas</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["intoxicação", "envenenamento", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 35 - Mordida de cachorro ou gato
+    {
+        id: 35,
+        titulo: "Mordida de cachorro ou gato",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Mordida de cachorro ou gato</h2>
+            
+            <div class="protocol-section">
+                <h3>Primeiros Socorros</h3>
+                <ul>
+                    <li>Controle o sangramento com pressão direta</li>
+                    <li>Lave abundantemente com água e sabão (15 minutos)</li>
+                    <li>Aplique pasta de carvão ativado na ferida</li>
+                    <li>Tome carvão ativado (1 colher sopa em água)</li>
+                    <li>Repita a cada 6 horas por 24-48 horas</li>
+                    <li>Em casos graves, procure ajuda médica</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["mordida", "cachorro", "gato", "raiva", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 36 - Náuseas
+    {
+        id: 36,
+        titulo: "Náuseas ou enjoo",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Náuseas ou enjoo</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Chá de gengibre fresco</li>
+                    <li>Suco de limão com água morna</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["náusea", "enjoo", "vômito", "gengibre"]
+    },
+    
+    // PROTOCOLO 37 - Parada Cardíaca
+    {
+        id: 37,
+        titulo: "Parada Cardíaca (Coração parou)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Parada Cardíaca (Coração parou)</h2>
+            
+            <div class="protocol-section">
+                <h3>Sinais</h3>
+                <ul>
+                    <li>Perda de consciência</li>
+                    <li>Ausência de respiração</li>
+                    <li>Ausência de pulso</li>
+                </ul>
+                <h3>RCP</h3>
+                <ul>
+                    <li>30 compressões torácicas (centro do peito, 5-6 cm de profundidade, 100-120/min)</li>
+                    <li>2 ventilações (se souber)</li>
+                    <li>Continue até ajuda chegar</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["parada cardíaca", "rcp", "massagem cardíaca", "compressão"]
+    },
+    
+    // PROTOCOLO 38 - Pedra nos Rins
+    {
+        id: 38,
+        titulo: "Pedra nos Rins",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pedra nos Rins</h2>
+            
+            <div class="protocol-section">
+                <h3>Chá de abacateiro</h3>
+                <ul>
+                    <li>1 litro água + 10 folhas secas de abacateiro</li>
+                    <li>Ferver 2-3 min, descansar 10 min</li>
+                    <li>Beber ao longo do dia</li>
+                </ul>
+                <h3>Chá de Quebra Pedra</h3>
+                <ul>
+                    <li>2 colheres de planta seca para 1 litro d'água</li>
+                    <li>Beber por vários dias</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["pedra nos rins", "rim", "cálculo renal"]
+    },
+    
+    // PROTOCOLO 39 - Pedra na Vesícula
+    {
+        id: 39,
+        titulo: "Pedra na Vesícula",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pedra na Vesícula</h2>
+            
+            <div class="protocol-section">
+                <h3>Remédio Natural</h3>
+                <ul>
+                    <li>Caroço de abacate bem seco, ralado na hora</li>
+                    <li>1 colher chá do pó em um copo de água morna</li>
+                    <li>Tomar todas as noites antes de dormir</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["pedra na vesícula", "vesícula", "cálculo biliar"]
+    },
+    
+    // PROTOCOLO 40 - Picada de Abelhas
+    {
+        id: 40,
+        titulo: "Picada de Abelhas / Vespas / Insetos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Abelhas / Vespas / Insetos</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Cataplasma de carvão ativado com água</li>
+                    <li>Para alergia: tomar 5 comprimidos de carvão ativado</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["picada", "abelha", "vespa", "inseto", "carvão ativado"]
+    }
+];
