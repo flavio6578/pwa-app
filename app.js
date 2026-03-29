@@ -1100,3 +1100,522 @@ const topicos = [
         palavrasChave: ["picada", "abelha", "vespa", "inseto", "carvão ativado"]
     }
 ];
+    // PROTOCOLO 41 - Picada de Aranha
+    {
+        id: 41,
+        titulo: "Picada de Aranha",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Aranha</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Cataplasma de carvão ativado com água</li>
+                    <li>Para aranhas muito venenosas: usar pomada de açafrão, camomila e mel</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["picada de aranha", "aranha", "veneno", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 42 - Picada de Cobra
+    {
+        id: 42,
+        titulo: "Picada de Cobra (Acidente Ofídico)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Cobra (Acidente Ofídico)</h2>
+            
+            <div class="protocol-section">
+                <h3>O que fazer</h3>
+                <ul>
+                    <li>Mantenha a vítima deitada e tranquila</li>
+                    <li>Lave o local com água e sabão</li>
+                    <li>Transporte imediatamente para o hospital</li>
+                </ul>
+                <h3>O que NÃO fazer</h3>
+                <ul>
+                    <li>Não faça torniquete</li>
+                    <li>Não corte o local</li>
+                    <li>Não tente chupar o veneno</li>
+                </ul>
+                <h3>Tratamento Natural Complementar</h3>
+                <ul>
+                    <li>Cataplasma de carvão ativado (trocar a cada 1h)</li>
+                    <li>Tomar 10 comprimidos de carvão ativado a cada 3h</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["picada de cobra", "cobra", "veneno", "ofídico", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 43 - Picada de Escorpião
+    {
+        id: 43,
+        titulo: "Picada de Escorpião",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Picada de Escorpião</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Cataplasma de carvão ativado no local</li>
+                    <li>Tomar 5 comprimidos de carvão ativado (repetir a cada 3h se necessário)</li>
+                </ul>
+                <p><strong>OBS:</strong> Em crianças, é grave. Faça os procedimentos e procure ajuda médica urgente.</p>
+            </div>
+        `,
+        palavrasChave: ["picada de escorpião", "escorpião", "veneno", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 44 - Pneumonia
+    {
+        id: 44,
+        titulo: "Pneumonia",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pneumonia</h2>
+            
+            <div class="protocol-section">
+                <p><strong>ATENÇÃO:</strong> A pneumonia é grave. Procure atendimento médico.</p>
+                <h3>Sintomas</h3>
+                <ul>
+                    <li>Tosse persistente, febre alta, falta de ar, dor no peito</li>
+                </ul>
+                <h3>Tratamento Natural Complementar</h3>
+                <ul>
+                    <li>Cataplasma de cebola na sola dos pés (durante a noite)</li>
+                    <li>Xarope de cebola e mel</li>
+                    <li>Inalação com chá de orégano, hortelã, camomila ou eucalipto</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["pneumonia", "pulmão", "infecção", "tosse", "febre"]
+    },
+    
+    // PROTOCOLO 45 - Pressão Alta ou Baixa
+    {
+        id: 45,
+        titulo: "Pressão Alta ou Baixa",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Pressão Alta ou Baixa</h2>
+            
+            <div class="protocol-section">
+                <h3>Pressão Alta (Crise Hipertensiva)</h3>
+                <ul>
+                    <li>Ralar 3-4 cebolas e colocar os pés sobre ela</li>
+                    <li>Chá de capim cidreira + chapéu-de-couro</li>
+                    <li>Normaliza a pressão em 30 minutos</li>
+                </ul>
+                <h3>Pressão Baixa</h3>
+                <ul>
+                    <li>Tomar um copo d'água com 1/4 colher de chá de sal</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["pressão alta", "hipertensão", "pressão baixa", "cebola", "sal"]
+    },
+    
+    // PROTOCOLO 46 - Prisão de Ventre
+    {
+        id: 46,
+        titulo: "Prisão de Ventre (constipação)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Prisão de Ventre (constipação)</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamentos Naturais</h3>
+                <ul>
+                    <li>Compressa de óleo de rícino no abdômen</li>
+                    <li>Chá de Sene (laxante natural, usar com moderação)</li>
+                    <li>Chá de erva doce ou funcho</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["prisão de ventre", "constipação", "intestino preso"]
+    },
+    
+    // PROTOCOLO 47 - Queimaduras
+    {
+        id: 47,
+        titulo: "Queimaduras",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Queimaduras</h2>
+            
+            <div class="protocol-section">
+                <h3>Classificação</h3>
+                <ul>
+                    <li><strong>1º grau:</strong> vermelhidão, sem bolhas</li>
+                    <li><strong>2º grau:</strong> bolhas, dor forte</li>
+                    <li><strong>3º grau:</strong> pele esbranquiçada ou carbonizada</li>
+                </ul>
+                <h3>Primeiros Socorros</h3>
+                <ul>
+                    <li>Resfrie com água corrente por 10-20 minutos</li>
+                    <li>Não estoure bolhas</li>
+                    <li>Não aplique gelo diretamente</li>
+                </ul>
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Pomada de açafrão, camomila e mel (2-3x ao dia)</li>
+                    <li>Gel de babosa para queimaduras leves</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produtos recomendados:</strong> Gel de Babosa</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["queimadura", "fogo", "bolha", "pomada", "babosa"]
+    },
+    
+    // PROTOCOLO 48 - Queimaduras de Taturanas
+    {
+        id: 48,
+        titulo: "Queimaduras de Taturanas / Lagartas",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Queimaduras de Taturanas / Lagartas</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Aplicar pasta de carvão ativado sobre a queimadura</li>
+                    <li>Tomar meia colher de carvão em meio copo d'água</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["taturana", "lagarta", "queimadura", "carvão ativado"]
+    },
+    
+    // PROTOCOLO 49 - RCP
+    {
+        id: 49,
+        titulo: "RCP (Ressuscitação Cardiopulmonar)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>RCP (Ressuscitação Cardiopulmonar)</h2>
+            
+            <div class="protocol-section">
+                <h3>PROCEDIMENTO DE EMERGÊNCIA</h3>
+                <ul>
+                    <li><strong>1.</strong> Verifique consciência e respiração</li>
+                    <li><strong>2.</strong> Chame ajuda (192)</li>
+                    <li><strong>3.</strong> Inicie compressões: 30 compressões / 2 ventilações</li>
+                    <li><strong>Frequência:</strong> 100-120 compressões/minuto</li>
+                    <li><strong>Profundidade:</strong> 5-6 cm (adultos)</li>
+                    <li>Continue até ajuda chegar ou a vítima reagir</li>
+                </ul>
+                <h3>Tempos Críticos</h3>
+                <ul>
+                    <li>0-4 min: danos reversíveis</li>
+                    <li>4-6 min: possível dano cerebral</li>
+                    <li>6-10 min: danos cerebrais prováveis</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["rcp", "ressuscitação", "massagem cardíaca", "parada", "compressão"]
+    },
+    
+    // PROTOCOLO 50 - Depressão
+    {
+        id: 50,
+        titulo: "Depressão",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Depressão</h2>
+            
+            <div class="protocol-section">
+                <p>A depressão é um transtorno de humor grave e comum, caracterizado por tristeza profunda, perda de interesse e energia reduzida, durando pelo menos duas semanas.</p>
+                
+                <h3>📋 Principais Sintomas</h3>
+                <ul>
+                    <li><strong>Humor Deprimido:</strong> Tristeza profunda, desesperança</li>
+                    <li><strong>Anedonia:</strong> Perda de prazer em atividades que antes eram agradáveis</li>
+                    <li><strong>Fadiga:</strong> Cansaço excessivo e falta de energia</li>
+                    <li><strong>Alterações no Sono:</strong> Insônia ou excesso de sono</li>
+                    <li><strong>Alterações de Peso:</strong> Perda ou ganho significativo</li>
+                    <li><strong>Baixa Autoestima:</strong> Culpa excessiva, inutilidade</li>
+                    <li><strong>Dificuldade Cognitiva:</strong> Problemas de concentração e memória</li>
+                </ul>
+                
+                <h3>🌿 Tratamento Natural</h3>
+                <p>Método mais rápido de tratamento natural é tomar a <strong>"FARINHA DA FELICIDADE"</strong>.</p>
+                
+                <h4>📝 Ingredientes:</h4>
+                <ul>
+                    <li>100g Farinha de Aveia</li>
+                    <li>100g Fibra de Maçã</li>
+                    <li>100g Gérmen de Trigo</li>
+                    <li>100g Gergelim</li>
+                    <li>100g Farinha de Banana Verde</li>
+                </ul>
+                <p><em>Todos esses ingredientes são ricos em tirosina, ótimo para o cérebro e o bem-estar.</em></p>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Farinha da Felicidade</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["depressão", "tristeza", "ansiedade", "farinha da felicidade", "tirosina"]
+    }
+];
+
+// =====================================
+// SEÇÃO: KITS DE EMERGÊNCIA (PRODUTOS)
+// =====================================
+
+// PRODUTOS RECOMENDADOS NA SEÇÃO KITS
+topicos.push({
+    id: 51,
+    titulo: "Kits de Emergência - Produtos Recomendados",
+    conteudo: `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>🛒 Produtos Recomendados</h2>
+        
+        <div class="protocol-section">
+            <p>Selecionamos os melhores produtos para você se preparar para emergências. Clique nos links abaixo e compre com segurança.</p>
+        </div>
+        
+        <div style="margin-top:20px; padding:15px; background:#f5f5f5; border-radius:10px; margin-bottom:15px;">
+            <p><strong>🎒 Kit de sobrevivência trekking</strong></p>
+            <a href="https://sites.google.com/view/07store/equipamentos" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                🛒 COMPRE AQUI
+            </a>
+        </div>
+        
+        <div style="margin-top:20px; padding:15px; background:#f5f5f5; border-radius:10px; margin-bottom:15px;">
+            <p><strong>🧰 Kit básico de primeiros socorros</strong></p>
+            <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                🛒 COMPRE AQUI
+            </a>
+        </div>
+        
+        <div style="margin-top:20px; padding:15px; background:#f5f5f5; border-radius:10px; margin-bottom:15px;">
+            <p><strong>👜 Bolsa de primeiros socorros pequena</strong></p>
+            <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                🛒 COMPRE AQUI
+            </a>
+        </div>
+        
+        <div style="margin-top:20px; padding:15px; background:#f5f5f5; border-radius:10px; margin-bottom:15px;">
+            <p><strong>🎒 Mochila kit sobrevivência</strong></p>
+            <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                🛒 COMPRE AQUI
+            </a>
+        </div>
+    `,
+    palavrasChave: ["kits", "emergência", "sobrevivência", "mochila", "bolsa"]
+});
+
+// =====================================
+// FUNÇÕES DO APP (NÃO MEXER)
+// =====================================
+function initApp() {
+    criarIndiceAlfabetico();
+    carregarListaTopicos();
+    configurarBusca();
+}
+
+function criarIndiceAlfabetico() {
+    const alphaIndex = document.getElementById('alphaIndex');
+    const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    
+    letras.forEach(letra => {
+        const div = document.createElement('div');
+        div.className = 'alpha-letter';
+        div.textContent = letra;
+        div.onclick = () => filtrarPorLetra(letra);
+        alphaIndex.appendChild(div);
+    });
+}
+
+function carregarListaTopicos(filtro = '') {
+    const topicsList = document.getElementById('topicsList');
+    topicsList.innerHTML = '';
+
+    const topicosFiltrados = topicos.filter(topico => 
+        topico.titulo.toLowerCase().includes(filtro.toLowerCase()) ||
+        (topico.palavrasChave && topico.palavrasChave.some(palavra => 
+            palavra.toLowerCase().includes(filtro.toLowerCase())
+        ))
+    );
+
+    if (topicosFiltrados.length === 0) {
+        topicsList.innerHTML = '<div class="no-results">Nenhum tópico encontrado</div>';
+        return;
+    }
+
+    topicosFiltrados.forEach(topico => {
+        const div = document.createElement('div');
+        div.className = 'topic-item';
+        div.innerHTML = `<h3>${topico.titulo}</h3>`;
+        div.onclick = () => mostrarProtocolo(topico.id);
+        topicsList.appendChild(div);
+    });
+}
+
+function filtrarPorLetra(letra) {
+    const topicosFiltrados = topicos.filter(topico => 
+        topico.titulo.toUpperCase().startsWith(letra)
+    );
+    
+    const topicsList = document.getElementById('topicsList');
+    topicsList.innerHTML = '';
+
+    if (topicosFiltrados.length === 0) {
+        topicsList.innerHTML = '<div class="no-results">Nenhum tópico encontrado com a letra ' + letra + '</div>';
+        return;
+    }
+
+    topicosFiltrados.forEach(topico => {
+        const div = document.createElement('div');
+        div.className = 'topic-item';
+        div.innerHTML = `<h3>${topico.titulo}</h3>`;
+        div.onclick = () => mostrarProtocolo(topico.id);
+        topicsList.appendChild(div);
+    });
+
+    topicsList.scrollIntoView({ behavior: 'smooth' });
+}
+
+function configurarBusca() {
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            carregarListaTopicos(e.target.value);
+        });
+    }
+}
+
+function mostrarProtocolo(id) {
+    const topico = topicos.find(t => t.id === id);
+    if (!topico) return;
+
+    document.getElementById('topicsContainer').style.display = 'none';
+    document.getElementById('protocolContent').style.display = 'block';
+    document.getElementById('protocolContent').innerHTML = topico.conteudo;
+}
+
+function voltarParaLista() {
+    document.getElementById('topicsContainer').style.display = 'block';
+    document.getElementById('protocolContent').style.display = 'none';
+}
+
+// Funções para o menu principal
+function mostrarIntroducao() {
+    const content = document.getElementById('protocolContent');
+    content.innerHTML = `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Introdução</h2>
+        
+        <div class="protocol-section">
+            <p>Bem-vindo ao aplicativo <strong>Primeiros Socorros - Métodos Normais e Naturais</strong>.</p>
+            <p>Este guia foi desenvolvido para fornecer instruções rápidas e claras sobre como agir em situações de emergência.</p>
+        </div>
+
+        <div class="protocol-section">
+            <h3>📌 Objetivo</h3>
+            <p>Oferecer informações confiáveis para que qualquer pessoa possa prestar primeiros atendimentos enquanto aguarda ajuda profissional.</p>
+        </div>
+
+        <div class="protocol-section">
+            <h3>📞 Telefones de Emergência</h3>
+            <ul>
+                <li><strong>Samu:</strong> 192</li>
+                <li><strong>Bombeiros:</strong> 193</li>
+                <li><strong>Polícia:</strong> 190</li>
+            </ul>
+        </div>
+    `;
+    
+    document.getElementById('topicsContainer').style.display = 'none';
+    content.style.display = 'block';
+}
+
+function mostrarImportante() {
+    const content = document.getElementById('protocolContent');
+    content.innerHTML = `
+        <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+        <h2>Importante Saber</h2>
+        
+        <div class="protocol-section">
+            <h3>🔴 Antes de tudo, lembre-se:</h3>
+            <ul>
+                <li><strong>Não entre em pânico</strong> – A calma é essencial.</li>
+                <li><strong>Verifique a segurança do local</strong> – Não se torne mais uma vítima.</li>
+                <li><strong>Peça ajuda</strong> – Ligue 192 ou 193.</li>
+            </ul>
+        </div>
+
+        <div class="protocol-section">
+            <h3>📋 Avaliação Inicial (ABCDE)</h3>
+            <ul>
+                <li><strong>A</strong> – Vias aéreas</li>
+                <li><strong>B</strong> – Respiração</li>
+                <li><strong>C</strong> – Circulação</li>
+                <li><strong>D</strong> – Neurológico</li>
+                <li><strong>E</strong> – Exposição</li>
+            </ul>
+        </div>
+    `;
+    
+    document.getElementById('topicsContainer').style.display = 'none';
+    content.style.display = 'block';
+}
+
+function mostrarIndice() {
+    document.getElementById('topicsContainer').style.display = 'block';
+    document.getElementById('protocolContent').style.display = 'none';
+    document.getElementById('topicsList').scrollIntoView({ behavior: 'smooth' });
+}
+
+// Lógica do botão PWA (instalação)
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    const pwaButton = document.getElementById('pwaInstallButton');
+    if (pwaButton) pwaButton.style.display = 'block';
+});
+
+document.addEventListener('click', (e) => {
+    if (e.target.closest('#pwaInstallButton')) {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        deferredPrompt = null;
+        document.getElementById('pwaInstallButton').style.display = 'none';
+    }
+});
+
+// Inicializar app
+document.addEventListener('DOMContentLoaded', initApp);
