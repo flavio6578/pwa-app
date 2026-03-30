@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Socorros - Métodos Normais e Naturais</title>
+    <link rel="stylesheet" href="../app.css">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#c62828">
+</head>
+<body>
+    <div class="container">
+        <!-- BANNER SUPERIOR - CHAMADA PARA APP COMPLETO -->
+        <div style="background: linear-gradient(135deg, #C62828, #B71C1C); color: white; text-align: center; padding: 12px; margin: 0; font-size: 14px; font-weight: bold;">
+            📱 QUER MAIS PROTOCOLOS? <a href="https://sites.google.com/view/07store" target="_blank" style="color: #FFD700; text-decoration: underline;">👉 CONHEÇA O APP COMPLETO 👈</a>
+        </div>
+
+        <header>
+            <div class="pwa-button" id="pwaInstallButton" style="display: none;">
+                <div class="pwa-button-content">
+                    <div class="cruz-3d">
+                        <div class="cruz-vertical"></div>
+                        <div class="cruz-horizontal"></div>
+                    </div>
+                    <span>Instalar App</span>
+                </div>
+            </div>
+
+            <h1 class="main-title">PRIMEIROS SOCORROS</h1>
+            <h2 class="sub-title">Métodos Normais e Naturais</h2>
+            
+            <div class="menu-principal">
+                <div class="menu-item" onclick="mostrarIntroducao()">
+                    <span class="menu-letra">a.</span> Introdução
+                </div>
+                <div class="menu-item" onclick="mostrarImportante()">
+                    <span class="menu-letra">b.</span> Importante
+                </div>
+                <div class="menu-item" onclick="mostrarIndice()">
+                    <span class="menu-letra">c.</span> Índice
+                </div>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="🔍 Buscar tratamento ou palavra...">
+            </div>
+        </header>
+
+        <main>
+            <div class="topics-container" id="topicsContainer">
+                <div class="alpha-index" id="alphaIndex"></div>
+                <div class="topics-list" id="topicsList"></div>
+            </div>
+            <div class="protocol-content" id="protocolContent" style="display: none;"></div>
+        </main>
+
+        <!-- BANNER INFERIOR - PRODUTOS RECOMENDADOS -->
+        <div style="background: #f5f5f5; padding: 15px; margin-top: 20px; text-align: center; border-radius: 10px;">
+            <p style="font-size: 1rem; font-weight: bold; color: #C62828; margin-bottom: 15px;">🛒 PRODUTOS RECOMENDADOS</p>
+            
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                
+                <div style="background: white; border-radius: 10px; padding: 10px; width: 160px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <p style="font-size: 1.8rem; margin: 0;">🏺</p>
+                    <p style="font-weight: bold; margin: 5px 0; font-size: 12px;">Filtro de Barro</p>
+                    <p style="font-size: 11px; color: #2E7D32; margin: 2px 0;">💧 Beba água purificada</p>
+                    <a href="https://meli.la/1mkKt1s" target="_blank" style="background: #C62828; color: white; padding: 5px 10px; border-radius: 20px; text-decoration: none; display: inline-block; font-size: 11px; margin-top: 5px;">VER OFERTA</a>
+                </div>
+                
+                <div style="background: white; border-radius: 10px; padding: 10px; width: 160px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <p style="font-size: 1.8rem; margin: 0;">😊</p>
+                    <p style="font-weight: bold; margin: 5px 0; font-size: 12px;">Farinha da Felicidade</p>
+                    <p style="font-size: 11px; color: #2E7D32; margin: 2px 0;">🍃 Saia da Depressão</p>
+                    <a href="https://meli.la/1ZuAncb" target="_blank" style="background: #C62828; color: white; padding: 5px 10px; border-radius: 20px; text-decoration: none; display: inline-block; font-size: 11px; margin-top: 5px;">VER OFERTA</a>
+                </div>
+                
+            </div>
+            
+            <p style="font-size: 10px; color: #999; margin-top: 15px;">Links de afiliado • Ao comprar, você apoia nosso app!</p>
+        </div>
+    </div>
+    <script src="app-50.js"></script>
+</body>
+</html>
