@@ -307,3 +307,524 @@ const topicos = [
         palavrasChave: ["bronquite", "bronquiolite", "tosse", "cebola", "inalação"]
     }
 ];
+    // 11. Câimbras
+    {
+        id: 11,
+        titulo: "Câimbras",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Câimbras</h2>
+            
+            <div class="protocol-section">
+                <ul>
+                    <li>Se a cãibra ocorrer em movimento, parar;</li>
+                    <li>Fazer massagens firmes com movimentos circulares no músculo / região atingida;</li>
+                    <li>Adotar posições que alonguem os músculos atingidos;</li>
+                    <li>Aplicar calor na região atingida (bolsa de água quente).</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Pomada Calminex</p>
+                <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["câimbra", "cãibra", "musculo", "dor"]
+    },
+    
+    // 12. Câncer
+    {
+        id: 12,
+        titulo: "Câncer",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Câncer</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Beber chá de Caseara (Guaçatonga verdadeira) para aumentar os linfócitos (defesa do corpo)</li>
+                    <li><strong>Atenção:</strong> Não confundir com outras plantas diuréticas de nome similar</li>
+                </ul>
+                <h3>Câncer no Sangue (Leucemia)</h3>
+                <ul>
+                    <li>Beber chá frio de Caseara sylvestris (Guaçatonga verdadeira), na proporção de 2 colheres de sopa para 1 litro de água</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Guaçatonga (Caseara)</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["câncer", "cancro", "leucemia", "guaçatonga", "caseara"]
+    },
+    
+    // 13. Catarata
+    {
+        id: 13,
+        titulo: "Catarata",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Catarata</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Aplicar mel de Abelha jataí</li>
+                    <li>Aplicar colírio de cinerária</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Mel de Abelha Jataí</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["catarata", "visão", "olhos", "mel", "jataí"]
+    },
+    
+    // 14. Ciático (Dor / Inflamação)
+    {
+        id: 14,
+        titulo: "Ciático (Dor / Inflamação)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Ciático (Dor / Inflamação)</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamentos Naturais</h3>
+                <ul>
+                    <li>Tomar o <strong>Tônico Energizante</strong> 3x ao dia (Ver na Seção Farmácia Natural)</li>
+                    <li>Ou tomar chá de hortelã 3 vezes ao dia</li>
+                    <li>Uso da Pomada Calminex</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Pomada Calminex</p>
+                <a href="https://sites.google.com/view/07store/primeiros-socorros" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["ciático", "ciatica", "dor nas costas", "ciatalgia"]
+    },
+    
+    // 15. Choque Elétrico
+    {
+        id: 15,
+        titulo: "Choque Elétrico",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Choque Elétrico</h2>
+            
+            <div class="protocol-section">
+                <h3>Procedimentos</h3>
+                <ul>
+                    <li>Desligue a fonte de energia</li>
+                    <li>Use objeto isolante (madeira, plástico) para afastar a vítima</li>
+                    <li>Verifique respiração e pulso</li>
+                    <li>Se não respirar, inicie RCP</li>
+                    <li>Ligue 192</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["choque elétrico", "eletricidade", "queimadura", "rcp"]
+    },
+    
+    // 16. Cólera
+    {
+        id: 16,
+        titulo: "Cólera",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Cólera</h2>
+            
+            <div class="protocol-section">
+                <p>A cólera é uma doença infecciosa intestinal aguda e grave, causada pela bactéria Vibrio cholerae. A transmissão ocorre principalmente através da ingestão de água ou alimentos contaminados.</p>
+                
+                <h3>Sintomas Principais</h3>
+                <ul>
+                    <li>Diarreia aquosa e profusa (aspecto de "água de arroz")</li>
+                    <li>Vômitos</li>
+                    <li>Cãibras musculares</li>
+                    <li>Sinais de desidratação grave</li>
+                </ul>
+                
+                <h3>Tratamento</h3>
+                <ul>
+                    <li>Reidratação Oral: Soro caseiro (1 litro de água + 1 colher sopa açúcar + 1 colher chá sal)</li>
+                    <li>Antibiótico Natural (Ver na Seção Farmácia Natural)</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["cólera", "diarreia", "desidratação", "carvão ativado"]
+    },
+    
+    // 17. Conjuntivite
+    {
+        id: 17,
+        titulo: "Conjuntivite (coceira, irritação nos olhos)",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Conjuntivite (coceira, irritação nos olhos)</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Compressa de batata ralada sobre os olhos</li>
+                    <li>Água com bicarbonato (1 colher café para um copo)</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["conjuntivite", "olho", "coceira", "irritação"]
+    },
+    
+    // 18. Convulsão / Ataque epilético
+    {
+        id: 18,
+        titulo: "Convulsão / Ataque epilético",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Convulsão / Ataque epilético</h2>
+            
+            <div class="protocol-section">
+                <h3>O QUE FAZER</h3>
+                <ul>
+                    <li>Proteja a cabeça</li>
+                    <li>Afaste objetos perigosos</li>
+                    <li>Coloque de lado (posição lateral de segurança)</li>
+                    <li>Cronometre a crise (se >5 min, chame 192)</li>
+                </ul>
+                <h3>O QUE NÃO FAZER</h3>
+                <ul>
+                    <li>Não coloque nada na boca</li>
+                    <li>Não segure a pessoa</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["convulsão", "epilepsia", "crise"]
+    },
+    
+    // 19. Corpos estranhos (olhos/nariz/ouvidos)
+    {
+        id: 19,
+        titulo: "Corpos Estranhos nos olhos / Nariz / Ouvidos",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Corpos Estranhos nos olhos / Nariz / Ouvidos</h2>
+            
+            <div class="protocol-section">
+                <h3>Olhos</h3>
+                <ul>
+                    <li>Lave com água corrente</li>
+                    <li>Não esfregue</li>
+                </ul>
+                <h3>Nariz</h3>
+                <ul>
+                    <li>Assoe suavemente</li>
+                    <li>Se visível, remova com pinça</li>
+                </ul>
+                <h3>Ouvidos</h3>
+                <ul>
+                    <li>Para insetos: azeite morno</li>
+                    <li>Não use cotonetes</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["corpo estranho", "objeto", "olho", "nariz", "ouvido"]
+    },
+    
+    // 20. Corrimento Vaginal
+    {
+        id: 20,
+        titulo: "Corrimento Vaginal",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Corrimento Vaginal</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Fazer duchas vaginais com pó de Barbatimão por um período de uma semana</li>
+                    <li><strong>Atenção:</strong> NÃO beber o chá de barbatimão, apenas uso externo</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Barbatimão</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["corrimento", "vaginal", "barbatimão"]
+    },
+    
+    // 21. Cortes / Sangramento / Hemorragia
+    {
+        id: 21,
+        titulo: "Cortes / Sangramento / Hemorragia",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Cortes / Sangramento / Hemorragia</h2>
+            
+            <div class="protocol-section">
+                <h3>Controle do Sangramento</h3>
+                <ul>
+                    <li>Pressione diretamente com pano limpo</li>
+                    <li>Eleve o membro afetado</li>
+                    <li>Se for muita hemorragia: pimenta caiena sobre o corte</li>
+                </ul>
+                <h3>Limpeza</h3>
+                <ul>
+                    <li>Lave com água limpa</li>
+                    <li>Remova sujeira visível</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Pimenta Caiena</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["corte", "sangramento", "hemorragia", "sangue"]
+    },
+    
+    // 22. Covid
+    {
+        id: 22,
+        titulo: "Covid",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Covid</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Tomar o <strong>FORTIFICANTE DE UVA</strong> (Ver na Seção Farmácia Natural)</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["covid", "coronavírus", "fortificante", "imunidade"]
+    },
+    
+    // 23. Dengue
+    {
+        id: 23,
+        titulo: "Dengue",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Dengue</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Tomar o <strong>FORTIFICANTE DE UVA</strong> (Ver na Seção Farmácia Natural)</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["dengue", "febre", "fortificante", "imunidade"]
+    },
+    
+    // 24. Depressão
+    {
+        id: 24,
+        titulo: "Depressão",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Depressão</h2>
+            
+            <div class="protocol-section">
+                <p>A depressão é um transtorno de humor grave e comum, caracterizado por tristeza profunda, perda de interesse e energia reduzida, durando pelo menos duas semanas.</p>
+                
+                <h3>📋 Principais Sintomas</h3>
+                <ul>
+                    <li><strong>Humor Deprimido:</strong> Tristeza profunda, desesperança</li>
+                    <li><strong>Anedonia:</strong> Perda de prazer em atividades</li>
+                    <li><strong>Fadiga:</strong> Cansaço excessivo</li>
+                    <li><strong>Alterações no Sono:</strong> Insônia ou excesso de sono</li>
+                    <li><strong>Baixa Autoestima:</strong> Culpa excessiva</li>
+                </ul>
+                
+                <h3>🌿 Tratamento Natural</h3>
+                <p>Método mais rápido de tratamento natural é tomar a <strong>"FARINHA DA FELICIDADE"</strong>.</p>
+                
+                <h4>📝 Ingredientes:</h4>
+                <ul>
+                    <li>100g Farinha de Aveia</li>
+                    <li>100g Fibra de Maçã</li>
+                    <li>100g Gérmen de Trigo</li>
+                    <li>100g Gergelim</li>
+                    <li>100g Farinha de Banana Verde</li>
+                </ul>
+                <p><em>Todos esses ingredientes são ricos em tirosina, ótimo para o cérebro e o bem-estar.</em></p>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Farinha da Felicidade</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["depressão", "tristeza", "ansiedade", "farinha da felicidade", "tirosina"]
+    },
+    
+    // 25. Dermatite
+    {
+        id: 25,
+        titulo: "Dermatite",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Dermatite</h2>
+            
+            <div class="protocol-section">
+                <h3>Tratamento Natural</h3>
+                <ul>
+                    <li>Tomar a <strong>Garrafada de BABOSA e MEL</strong> (Ver na Seção Farmácia Natural)</li>
+                    <li>Compressas: Prepare uma infusão de camomila (chá) deixe esfriar e aplique com um pano limpo na área afetada</li>
+                    <li>Aplicação Direta: Óleos como o de coco ou Aloe Vera (Gel da Babosa)</li>
+                </ul>
+                <h3>OBS EVITAR:</h3>
+                <ul>
+                    <li>Carnes vermelhas, porco, peixes de couro, camarão, lagosta</li>
+                    <li>Embutidos (mortadela, presunto, salsicha, etc.)</li>
+                    <li>Sucos artificiais, alimentos industrializados</li>
+                    <li>Evite fumar ou beber bebidas alcoólicas</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Gel de Babosa</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["dermatite", "pele", "inflamação", "babosa", "aloe vera"]
+    },
+    
+    // 26. Desidratação / Insolação
+    {
+        id: 26,
+        titulo: "Desidratação / Insolação",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Desidratação / Insolação</h2>
+            
+            <div class="protocol-section">
+                <h3>PROCEDIMENTOS</h3>
+                <ul>
+                    <li>Leve para local fresco e sombreado</li>
+                    <li>Aplique panos úmidos frios (pescoço, axilas, virilhas)</li>
+                    <li>Ofereça água em pequenos goles</li>
+                    <li>Soro caseiro: 1L água + 1 col sopa açúcar + 1 col chá sal</li>
+                    <li>Gel de babosa no corpo para aliviar vermelhidão</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTOS RECOMENDADOS -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produtos recomendados:</strong> Filtro de água portátil | Soro isotônico | Gel de Babosa | Filtro de Barro</p>
+                <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                    <a href="https://sites.google.com/view/07store/equipamentos" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:8px 20px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                        🛒 EQUIPAMENTOS
+                    </a>
+                    <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#2E7D32; color:white; padding:8px 20px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                        🌿 NATURAIS
+                    </a>
+                </div>
+            </div>
+        `,
+        palavrasChave: ["desidratação", "insolação", "calor", "hidratação", "soro"]
+    },
+    
+    // 27. Desinteria
+    {
+        id: 27,
+        titulo: "Desinteria",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Desinteria</h2>
+            
+            <div class="protocol-section">
+                <h3>Sintomas Comuns</h3>
+                <ul>
+                    <li>Diarreia aquosa frequente com sangue e/ou muco</li>
+                    <li>Cólicas e dor abdominal intensa</li>
+                    <li>Febre, náuseas e vômitos</li>
+                    <li>Desidratação, fadiga, perda de peso</li>
+                </ul>
+                
+                <h3>Tratamentos Naturais</h3>
+                <ul>
+                    <li>Tomar 1 colher de sopa de carvão vegetal em pó em um copo de água</li>
+                    <li>Suco de limão com Maizena (1 limão + 1 colher sopa) 1-3x ao dia</li>
+                    <li>Chá de folha de Goiaba (3-6 xícaras/dia)</li>
+                    <li>Tomar o <strong>ANTIBIÓTICO NATURAL</strong> (Ver na Seção Farmácia Natural)</li>
+                </ul>
+            </div>
+            
+            <!-- PRODUTO RECOMENDADO -->
+            <div style="margin-top:30px; padding:15px; background:#f5f5f5; border-radius:10px; border-left:4px solid #C62828;">
+                <p style="margin-bottom:10px;"><strong>📦 Produto recomendado:</strong> Carvão Ativado</p>
+                <a href="https://sites.google.com/view/07store/naturais" target="_blank" style="display:inline-block; background:#C62828; color:white; padding:10px 25px; border-radius:50px; text-decoration:none; font-weight:bold;">
+                    🛒 COMPRE AQUI
+                </a>
+            </div>
+        `,
+        palavrasChave: ["desinteria", "diarreia", "sangue", "carvão ativado"]
+    },
+    
+    // 28. Desmaio / Mal súbito
+    {
+        id: 28,
+        titulo: "Desmaio / Mal súbito",
+        conteudo: `
+            <button class="back-button" onclick="voltarParaLista()">← Voltar</button>
+            <h2>Desmaio / Mal súbito</h2>
+            
+            <div class="protocol-section">
+                <h3>O Que Fazer Imediatamente:</h3>
+                <ol>
+                    <li>Deite a pessoa de costas no chão</li>
+                    <li>Levante as pernas 30-40 cm acima do coração</li>
+                    <li>Afrouxe roupas apertadas</li>
+                    <li>Providencie ar fresco</li>
+                </ol>
+                <h3>Após o Retorno à Consciência:</h3>
+                <ul>
+                    <li>Não levante rapidamente</li>
+                    <li>Ofereça água</li>
+                </ul>
+            </div>
+        `,
+        palavrasChave: ["desmaio", "mal súbito", "inconsciência"]
+    }
+];
