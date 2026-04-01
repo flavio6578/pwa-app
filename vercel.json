@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "versos/*.html", "use": "@vercel/static" },
+    { "src": "versos/*.js", "use": "@vercel/static" },
+    { "src": "icons/**", "use": "@vercel/static" },
+    { "src": "imagens/**", "use": "@vercel/static" }
+  ]
+}
