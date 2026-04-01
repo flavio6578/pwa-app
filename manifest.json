@@ -2,7 +2,7 @@
   "name": "Primeiros Socorros",
   "short_name": "Socorros",
   "description": "Guia de primeiros socorros com métodos normais e naturais",
-  "start_url": "/",
+  "start_url": "/versos/",
   "display": "standalone",
   "background_color": "#c62828",
   "theme_color": "#c62828",
