@@ -1097,8 +1097,7 @@ const topicos = [
             </div>
         `,
         palavrasChave: ["picada", "abelha", "vespa", "inseto", "carvão ativado"]
-    }
-];
+    },
     // PROTOCOLO 41 - Picada de Aranha
     {
         id: 41,
