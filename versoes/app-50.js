@@ -576,8 +576,7 @@ const topicos = [
             </div>
         `,
         palavrasChave: ["dor muscular", "torcicolo", "músculo", "repolho", "gengibre"]
-    }
-];
+    },
     // PROTOCOLO 21 - Dor de Ouvido
     {
         id: 21,
