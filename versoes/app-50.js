@@ -1617,3 +1617,10 @@ document.addEventListener('click', (e) => {
 
 // Inicializar app
 document.addEventListener('DOMContentLoaded', initApp);
+function mostrarIndice() {
+    carregarListaTopicos();
+}
+
+function mostrarIntroducao() {
+    carregarListaTopicos();
+}
