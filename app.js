@@ -826,8 +826,8 @@ const topicos = [
             </div>
         `,
         palavrasChave: ["desmaio", "mal súbito", "inconsciência"]
-    }
-];
+    },
+
     // 29. Diabetes
     {
         id: 29,
