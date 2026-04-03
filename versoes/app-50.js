@@ -1385,8 +1385,7 @@ const topicos = [
             </div>
         `,
         palavrasChave: ["depressão", "tristeza", "ansiedade", "farinha da felicidade", "tirosina"]
-    }
-];
+    },
 
 // =====================================
 // SEÇÃO: KITS DE EMERGÊNCIA (PRODUTOS)
